@@ -1,0 +1,10 @@
+c:\users\amkamal\documents\visual studio 2013\Projects\Lab2-Andrew\Lab2-Andrew\bin\Debug\Lab2-Andrew.exe.config
+c:\users\amkamal\documents\visual studio 2013\Projects\Lab2-Andrew\Lab2-Andrew\bin\Debug\Lab2-Andrew.exe
+c:\users\amkamal\documents\visual studio 2013\Projects\Lab2-Andrew\Lab2-Andrew\bin\Debug\Lab2-Andrew.pdb
+c:\users\amkamal\documents\visual studio 2013\Projects\Lab2-Andrew\Lab2-Andrew\bin\Debug\Lab2-Andrew.xml
+c:\users\amkamal\documents\visual studio 2013\Projects\Lab2-Andrew\Lab2-Andrew\obj\Debug\Lab2_Andrew.Form1.resources
+c:\users\amkamal\documents\visual studio 2013\Projects\Lab2-Andrew\Lab2-Andrew\obj\Debug\Lab2_Andrew.Resources.resources
+c:\users\amkamal\documents\visual studio 2013\Projects\Lab2-Andrew\Lab2-Andrew\obj\Debug\Lab2-Andrew.vbproj.GenerateResource.Cache
+c:\users\amkamal\documents\visual studio 2013\Projects\Lab2-Andrew\Lab2-Andrew\obj\Debug\Lab2-Andrew.exe
+c:\users\amkamal\documents\visual studio 2013\Projects\Lab2-Andrew\Lab2-Andrew\obj\Debug\Lab2-Andrew.xml
+c:\users\amkamal\documents\visual studio 2013\Projects\Lab2-Andrew\Lab2-Andrew\obj\Debug\Lab2-Andrew.pdb

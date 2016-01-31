@@ -1,0 +1,383 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.btnTextboxForIn_out = New System.Windows.Forms.Button()
+        Me.btnConcat = New System.Windows.Forms.Button()
+        Me.btnPage73 = New System.Windows.Forms.Button()
+        Me.btn83_40 = New System.Windows.Forms.Button()
+        Me.btn85_50 = New System.Windows.Forms.Button()
+        Me.txtIn_str = New System.Windows.Forms.TextBox()
+        Me.txtIn_dbl = New System.Windows.Forms.TextBox()
+        Me.txtInInteger = New System.Windows.Forms.TextBox()
+        Me.txtOutInt = New System.Windows.Forms.TextBox()
+        Me.txtOutDbl = New System.Windows.Forms.TextBox()
+        Me.txtOut_str = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtConcat = New System.Windows.Forms.TextBox()
+        Me.lstOut = New System.Windows.Forms.ListBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.lbl83_40 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.btnStrings = New System.Windows.Forms.Button()
+        Me.btn_84_48 = New System.Windows.Forms.Button()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
+        '
+        'btnTextboxForIn_out
+        '
+        Me.btnTextboxForIn_out.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTextboxForIn_out.Location = New System.Drawing.Point(10, 124)
+        Me.btnTextboxForIn_out.Name = "btnTextboxForIn_out"
+        Me.btnTextboxForIn_out.Size = New System.Drawing.Size(307, 73)
+        Me.btnTextboxForIn_out.TabIndex = 0
+        Me.btnTextboxForIn_out.Text = "Textbox for Input/Output Page 70"
+        Me.btnTextboxForIn_out.UseVisualStyleBackColor = True
+        '
+        'btnConcat
+        '
+        Me.btnConcat.Location = New System.Drawing.Point(10, 225)
+        Me.btnConcat.Name = "btnConcat"
+        Me.btnConcat.Size = New System.Drawing.Size(233, 49)
+        Me.btnConcat.TabIndex = 1
+        Me.btnConcat.Text = "Concatenate"
+        Me.btnConcat.UseVisualStyleBackColor = True
+        '
+        'btnPage73
+        '
+        Me.btnPage73.Location = New System.Drawing.Point(10, 282)
+        Me.btnPage73.Name = "btnPage73"
+        Me.btnPage73.Size = New System.Drawing.Size(233, 49)
+        Me.btnPage73.TabIndex = 2
+        Me.btnPage73.Text = "page 73 stuff"
+        Me.btnPage73.UseVisualStyleBackColor = True
+        '
+        'btn83_40
+        '
+        Me.btn83_40.Location = New System.Drawing.Point(10, 339)
+        Me.btn83_40.Name = "btn83_40"
+        Me.btn83_40.Size = New System.Drawing.Size(233, 49)
+        Me.btn83_40.TabIndex = 3
+        Me.btn83_40.Text = "83 40"
+        Me.btn83_40.UseVisualStyleBackColor = True
+        '
+        'btn85_50
+        '
+        Me.btn85_50.Location = New System.Drawing.Point(10, 453)
+        Me.btn85_50.Name = "btn85_50"
+        Me.btn85_50.Size = New System.Drawing.Size(233, 49)
+        Me.btn85_50.TabIndex = 5
+        Me.btn85_50.Text = "85 52"
+        Me.btn85_50.UseVisualStyleBackColor = True
+        '
+        'txtIn_str
+        '
+        Me.txtIn_str.Location = New System.Drawing.Point(323, 175)
+        Me.txtIn_str.Name = "txtIn_str"
+        Me.txtIn_str.Size = New System.Drawing.Size(133, 48)
+        Me.txtIn_str.TabIndex = 7
+        '
+        'txtIn_dbl
+        '
+        Me.txtIn_dbl.Location = New System.Drawing.Point(460, 175)
+        Me.txtIn_dbl.Name = "txtIn_dbl"
+        Me.txtIn_dbl.Size = New System.Drawing.Size(133, 48)
+        Me.txtIn_dbl.TabIndex = 8
+        '
+        'txtInInteger
+        '
+        Me.txtInInteger.Location = New System.Drawing.Point(597, 175)
+        Me.txtInInteger.Name = "txtInInteger"
+        Me.txtInInteger.Size = New System.Drawing.Size(133, 48)
+        Me.txtInInteger.TabIndex = 9
+        '
+        'txtOutInt
+        '
+        Me.txtOutInt.Location = New System.Drawing.Point(1050, 175)
+        Me.txtOutInt.Name = "txtOutInt"
+        Me.txtOutInt.Size = New System.Drawing.Size(133, 48)
+        Me.txtOutInt.TabIndex = 12
+        '
+        'txtOutDbl
+        '
+        Me.txtOutDbl.Location = New System.Drawing.Point(916, 175)
+        Me.txtOutDbl.Name = "txtOutDbl"
+        Me.txtOutDbl.Size = New System.Drawing.Size(133, 48)
+        Me.txtOutDbl.TabIndex = 11
+        '
+        'txtOut_str
+        '
+        Me.txtOut_str.Location = New System.Drawing.Point(782, 175)
+        Me.txtOut_str.Name = "txtOut_str"
+        Me.txtOut_str.Size = New System.Drawing.Size(133, 48)
+        Me.txtOut_str.TabIndex = 10
+        '
+        'Label1
+        '
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(417, 103)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(189, 28)
+        Me.Label1.TabIndex = 13
+        Me.Label1.Text = "Input"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label2
+        '
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(883, 103)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(189, 28)
+        Me.Label2.TabIndex = 14
+        Me.Label2.Text = "Output"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'txtConcat
+        '
+        Me.txtConcat.Location = New System.Drawing.Point(268, 232)
+        Me.txtConcat.Name = "txtConcat"
+        Me.txtConcat.Size = New System.Drawing.Size(384, 48)
+        Me.txtConcat.TabIndex = 15
+        '
+        'lstOut
+        '
+        Me.lstOut.FormattingEnabled = True
+        Me.lstOut.ItemHeight = 40
+        Me.lstOut.Location = New System.Drawing.Point(388, 510)
+        Me.lstOut.Name = "lstOut"
+        Me.lstOut.Size = New System.Drawing.Size(606, 124)
+        Me.lstOut.TabIndex = 16
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(370, 346)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(59, 48)
+        Me.TextBox1.TabIndex = 18
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(289, 346)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(59, 48)
+        Me.TextBox2.TabIndex = 17
+        '
+        'Label3
+        '
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(285, 315)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(63, 28)
+        Me.Label3.TabIndex = 19
+        Me.Label3.Text = "age"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label4
+        '
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(366, 315)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(63, 28)
+        Me.Label4.TabIndex = 20
+        Me.Label4.Text = "rhr"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lbl83_40
+        '
+        Me.lbl83_40.AutoSize = True
+        Me.lbl83_40.Location = New System.Drawing.Point(468, 354)
+        Me.lbl83_40.Name = "lbl83_40"
+        Me.lbl83_40.Size = New System.Drawing.Size(0, 40)
+        Me.lbl83_40.TabIndex = 21
+        '
+        'Label5
+        '
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(330, 146)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(137, 28)
+        Me.Label5.TabIndex = 22
+        Me.Label5.Text = "str"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label6
+        '
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(458, 146)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(137, 28)
+        Me.Label6.TabIndex = 23
+        Me.Label6.Text = "dbl"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label7
+        '
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(592, 146)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(137, 28)
+        Me.Label7.TabIndex = 24
+        Me.Label7.Text = "int"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label8
+        '
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(1013, 144)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(137, 28)
+        Me.Label8.TabIndex = 27
+        Me.Label8.Text = "int"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label9
+        '
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(916, 144)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(137, 28)
+        Me.Label9.TabIndex = 26
+        Me.Label9.Text = "dbl"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label10
+        '
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(815, 144)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(137, 28)
+        Me.Label10.TabIndex = 25
+        Me.Label10.Text = "str"
+        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'btnStrings
+        '
+        Me.btnStrings.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnStrings.Location = New System.Drawing.Point(10, 38)
+        Me.btnStrings.Name = "btnStrings"
+        Me.btnStrings.Size = New System.Drawing.Size(267, 39)
+        Me.btnStrings.TabIndex = 28
+        Me.btnStrings.Text = "Strings"
+        Me.btnStrings.UseVisualStyleBackColor = True
+        '
+        'btn_84_48
+        '
+        Me.btn_84_48.Location = New System.Drawing.Point(12, 394)
+        Me.btn_84_48.Name = "btn_84_48"
+        Me.btn_84_48.Size = New System.Drawing.Size(233, 49)
+        Me.btn_84_48.TabIndex = 29
+        Me.btn_84_48.Text = "84 48"
+        Me.btn_84_48.UseVisualStyleBackColor = True
+        '
+        'Label11
+        '
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(470, 315)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(63, 28)
+        Me.Label11.TabIndex = 30
+        Me.Label11.Text = "thr"
+        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(21.0!, 40.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1292, 643)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.btn_84_48)
+        Me.Controls.Add(Me.btnStrings)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.lbl83_40)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.lstOut)
+        Me.Controls.Add(Me.txtConcat)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.txtOutInt)
+        Me.Controls.Add(Me.txtOutDbl)
+        Me.Controls.Add(Me.txtOut_str)
+        Me.Controls.Add(Me.txtInInteger)
+        Me.Controls.Add(Me.txtIn_dbl)
+        Me.Controls.Add(Me.txtIn_str)
+        Me.Controls.Add(Me.btn85_50)
+        Me.Controls.Add(Me.btn83_40)
+        Me.Controls.Add(Me.btnPage73)
+        Me.Controls.Add(Me.btnConcat)
+        Me.Controls.Add(Me.btnTextboxForIn_out)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(7)
+        Me.Name = "Form1"
+        Me.Text = "age"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents btnTextboxForIn_out As System.Windows.Forms.Button
+    Friend WithEvents btnConcat As System.Windows.Forms.Button
+    Friend WithEvents btnPage73 As System.Windows.Forms.Button
+    Friend WithEvents btn83_40 As System.Windows.Forms.Button
+    Friend WithEvents btn85_50 As System.Windows.Forms.Button
+    Friend WithEvents txtIn_str As System.Windows.Forms.TextBox
+    Friend WithEvents txtIn_dbl As System.Windows.Forms.TextBox
+    Friend WithEvents txtInInteger As System.Windows.Forms.TextBox
+    Friend WithEvents txtOutInt As System.Windows.Forms.TextBox
+    Friend WithEvents txtOutDbl As System.Windows.Forms.TextBox
+    Friend WithEvents txtOut_str As System.Windows.Forms.TextBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents txtConcat As System.Windows.Forms.TextBox
+    Friend WithEvents lstOut As System.Windows.Forms.ListBox
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents lbl83_40 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents btnStrings As System.Windows.Forms.Button
+    Friend WithEvents btn_84_48 As System.Windows.Forms.Button
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+
+End Class

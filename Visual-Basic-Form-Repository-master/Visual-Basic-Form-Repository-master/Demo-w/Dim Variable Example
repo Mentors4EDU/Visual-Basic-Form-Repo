@@ -1,0 +1,18 @@
+Public Class Form1
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+        'Declare variables to get input, call them age ands rhr. They need to be type double
+        'Declare a variable for output. Call it thr and make it double
+        Dim age As Double
+        Dim rhr As Double
+        Dim thr As Double
+        'Read in from textboxes into age and rhr, slide 35
+        age = CDbl(txtAge.Text)
+        rhr = CDbl(txtRest.text)
+        thr = 0.7 * (220 - age) + 0.3 + rhr
+        'thr = 0.7 * (220 - age) + 0.3 + rhr
+        'Output thr into a label or listbox or textbox

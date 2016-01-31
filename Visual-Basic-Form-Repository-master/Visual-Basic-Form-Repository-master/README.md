@@ -1,0 +1,1 @@
+'Welcome to my repository that shows sample forms in Visual Studio 2012 using utilized Visual Basic code. The purpose of this repository is to educate, some of the code does have tiny string errors for the purpose of editing and costumizing the code to meet your standards, thank you for using.

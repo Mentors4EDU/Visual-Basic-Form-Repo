@@ -1,0 +1,39 @@
+Create a change on a button or text using btn Change or txt Change function.
+
+TextChanged changes a text inside a textbox.
+
+A form is reffered by using the keyword Me. Don’t use form demo or form.changed, it won’t work
+
+Numbers themselves are numeric literals (Parenthesis over ride everything)
+
+lstBox.Items.Add(1) displays the value of 1 in a listbox; can use a single expression or strings w/
+
+numeric literals *Visual Basic gives a value and outputs it when done
+
+Use letter, numbers or underscores when deciding to name a variable. Don’t try naming it the
+
+same as an object or otherwise it won’t work
+
+It is important to know how to assign a value or initialize a variable *Keep in mind you can
+
+always change variables even after initializing it
+
+­Know (Dim A As Double = B) A=B when creating an expression
+
+­Know syntax when declaring multiple variables
+
+Square root and integers only has one argument, however round has two arguments
+
+strVar=txtBox.Text (Contents will always be a string) *CDbl converts strings to a double
+
+*CStr converts to string
+
+aString, a space bar is a character; ampersand converts numOfkeys to a string; Understand the
+
+position of characters
+
+Use arguments for your methods and keep in mind the difference between methods and
+
+properties
+
+Scope­ Variable declared in an event procedure; Only exists when being only in that procedure

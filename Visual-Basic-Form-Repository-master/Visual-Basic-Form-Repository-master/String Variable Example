@@ -1,0 +1,142 @@
+Private Sub Form1_Load(sender As Object, e As EventArgs)
+
+End Sub
+Public Class Form1
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class
+
+Private Property myScifi1 As String
+
+Private Sub btnTextboxForIn_out_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnTextboxForIn_out.Click
+    'declare string variable
+    Dim andrew As String
+
+    'declare double variable
+    Dim adouble As Double
+    'declare integer variable
+    andrew = txt_insr.Text
+    'read from textbox into string variable
+    TextBox.Text = strVar(andrew)
+
+    'read from textbox into double variable
+    adouble = CDbl(txtIn_dbl.Text)
+
+    'read from textbox into integer variable
+
+    'write from string variable into textbox
+
+    txtOut_str.Text = andrew
+    'write from double variable into textbox
+
+    txtOut_str.Text = CStr(adouble)
+    'write from integer variable into textbox
+
+Private Sub Form1_Load(sender As Object, e As EventArgs)
+
+End Sub
+Public Class Form1
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class
+
+Private Property myScifi1 As String
+
+Private Sub btnTextboxForIn_out_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnTextboxForIn_out.Click
+    'declare string variable
+    Dim andrew As String
+
+    'declare double variable
+    Dim adouble As Double
+    'declare integer variable
+    andrew = txt_insr.Text
+    'read from textbox into string variable
+    TextBox.Text = strVar(andrew)
+
+    'read from textbox into double variable
+    adouble = CDbl(txtIn_dbl.Text)
+
+    'read from textbox into integer variable
+
+    'write from string variable into textbox
+
+    txtOut_str.Text = andrew
+    'write from double variable into textbox
+
+    txtOut_str.Text = CStr(adouble)
+    'write from integer variable into textbox
+
+
+
+End Sub
+
+Private Sub btnConcat_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnConcat.Click
+    'output various strings to the textbox
+    'declare two string variables, assign values, and practice concatenate and output
+    Dim a, b As String
+    a = "Oakland"
+    b = "University"
+    textConcat.Text = a & " " & b
+
+End Sub
+
+Private Sub btnPage73_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPage73.Click
+    Dim MyStr As String = "         Hello its me    "
+    Dim ShortString As String = ""
+
+    'output length property of myStr and shortstring
+    lstOut.Items.Add(Mystr.Length)
+    lstOut.Items.Add(ShortString.Length)
+    'output upper case of myStr
+    lstOut.Items.Add(Mystr.ToUpper)
+    'output lower case of myStr
+    lstOut.Items.Add(Mystr.ToLower)
+    'use trim method to remove extra spaces of myStr and write to ShortString
+    ShortString = Mystr.Trim
+    'output ShortString
+    lstOut.Items.Add(ShortString)
+    'output the first character of ShortString
+    lstOut.Items.Add(ShortString.Substring(0.1))
+    'output the last chacter of shortstring
+    lstOut.Items.Add(ShortString.Substring(ShortString.Length - 1, 1))
+    'find position of  "me" in ShortString
+    lstOut.Items.Add(ShortString.IndexOf("me"))
+    'find position of  "x" in ShortString
+    lstOut.Items.Add("The position of x in shorstring" & Shortstring.IndexOf "X and y".)
+
+
+End Sub
+
+Private Sub btn85_50_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn85_50.Click
+    Dim all_lets As String
+    all_lets = "THE QUICK BROWN FOX JUMPS OVER A LAZY DOG"
+
+End Sub
+
+Private Sub btn83_40_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn83_40.Click
+    'thr = .7 * (220 - age) + .3 * rhr
+
+End Sub
+
+
+Private Sub btnStrings_Click(sender As Object, e As EventArgs) Handles btnStrings.Click
+    'Declare string variables
+    Dim myScifi1, myScifi2 As String
+    'Assign values and output to label
+    myScifi1 = "Tuesday"
+
+End Sub
+Private Function strVar(andrew As String) As String
+    Throw New NotImplementedException
+End Function
+
+
+Private Function txt_insr() As Object
+    Throw New NotImplementedException
+End Function
+
+        myScifi2 = "Wednesday"

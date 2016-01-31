@@ -1,0 +1,41 @@
+Index of turns the string for you
+
+“Name”.IndexOf(“is”) 1
+
+We call an empty string that has quotes in it a zero length string
+
+textbox.clear()
+
+By default the initial value of a string is nothing
+
+Widening always works, you can take an integer variable and put it in a double variable without
+
+any conversion.
+
+Narrowing requires the CInt function: CInt()
+
+Double value to an integer variable
+
+A comment can be placed anywhere but whatever to the right of it will be ignored.
+
+Line continuation doesn’t require an underscore ( )
+
+You can’t just cut a string automatically *Important with decision or sequel statements
+
+Scope of a variable­ The portion of the program that can read or write to it inside an event
+
+procedure. *Declaring a string
+
+­Study variables that are declared as LOCAL in Scope
+
+You can declare class­level scope: Usually declared as­ Public Class formName
+
+*Know the difference between class and local in the exams:
+
+Dim myLocalVar As Integer
+
+Dim myClassVar As Integer
+
+This is available to all procedures on this form: meaning the lifetime this form exists:
+
+lstOut.Items.Add(“Local is “ & myLocalCar & “ and my class level is “ myClassVar)
