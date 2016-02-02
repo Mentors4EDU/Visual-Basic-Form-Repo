@@ -1,12 +1,12 @@
-  Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnBig1.Click
+Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnBig1.Click
         Dim n1 As Integer
         Dim n2 As Integer
         Dim BtnBig1 As Integer
         n1 = CInt(txtN1.Text)
         n2 = CInt(txtN2.Text)
         If n1 > n2 Then
-            BiggerNum = n1
+            BtnBig1 = n1
         Else
-            BiggerNum = n2
+            BtnBig1 = n2
         End If
     End Sub
