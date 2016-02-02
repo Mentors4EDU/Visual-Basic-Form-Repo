@@ -1,4 +1,4 @@
- Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnBig1.Click
+  Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnBig1.Click
         Dim n1 As Integer
         Dim n2 As Integer
         Dim BtnBig1 As Integer
@@ -7,5 +7,6 @@
         If n1 > n2 Then
             BiggerNum = n1
         Else
-            Big Num = n2
+            BiggerNum = n2
         End If
+    End Sub
