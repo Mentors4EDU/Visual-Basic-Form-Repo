@@ -1,0 +1,38 @@
+Public Class Form1
+    Public Property txtDbl As Object
+
+    Private Sub btnEnter_Click(sender As Object, e As EventArgs) Handles btnEnter.Click
+        'Declare myString
+        Dim myString As String
+        Dim myDbl As Double
+        Dim myInt As Integer
+        'Create Output
+        Dim txtStr As Object = Nothing
+        myString = txtStr.Text
+        myDbl = CDbl(txtDbl.Text)
+        Dim myStringOUT As String
+        myStringOUT = "A person with this job has a yearly salary of" & myString.ToUpper &
+            "the number I entered was " & myDbl.ToString("C")
+        Label1.Text = myStringOUT
+
+
+    End Sub
+
+    Private Sub txtOutput_TextChanged(sender As Object, e As EventArgs) Handles txtOutput.TextChanged
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'Messagebox variable
+        Dim myBMI As Double
+        myBMI = CDbl(InputBox("Enter BMI"))
+        MessageBox.Show("My BMI Is " & myBMI)
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        'Declare substring to locate source of character
+        Dim value As String = "This is a short string."
+        Dim delimiter As Char = " "c
+        Dim substrings() As String = value.Split(delimiter)
+    End Sub
+End Class
