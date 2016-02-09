@@ -1,0 +1,12 @@
+Private Sub btn_127_26_Click(sender As Object, e As EventArgs) Handles btn_127_26.Click
+        Dim wage, hours, pay As Double
+        wage = CDbl(txtHourlyRate.Text)
+        hours = CDbl(txtHoursWorked.Text)
+        If hours <= 40 Then
+            pay = hours * wage
+        Else
+            pay = 40 * wage + 1.5 * wage * (hours - 40)
+        End If
+        lstOut.Items.Add("your paycheck is " & pay.ToString("C"))
+    End Sub
+    'This is an If Statement sample using if else end
