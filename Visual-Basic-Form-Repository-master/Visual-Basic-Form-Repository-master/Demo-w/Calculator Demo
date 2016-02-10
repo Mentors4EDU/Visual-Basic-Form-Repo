@@ -1,0 +1,50 @@
+Public Class Form1
+    Dim total As Integer = 0
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    End Sub
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'declare variable
+        Dim credits As Integer
+        Dim cost As Integer
+        Dim totalCost As Integer
+        'input the textbox into variables
+        credits = CInt(txtCredits.Text)
+        cost = CInt(txtCost.Text)
+        'calculate cost
+        totalCost = credits * cost
+        'output total cost
+        lblTotalCost.Text = "$" & totalCost
+        'clear the textbox
+        txtCredits.Text = ""
+        txtCost.Text = ""
+    End Sub
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles lblTotalCost.Click
+    End Sub
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        'declare variables
+        Dim firstName As String
+        Dim lastName As String
+        'input to variables from textbox
+        firstName = txtFirstname.Text
+        lastName = txtLastname.Text
+        'output to listbox
+        lstName.Items.Add(firstName & " " & lastName)
+        'clear the input textboxes
+        txtFirstname.Text = ""
+        txtLastname.Text = ""
+    End Sub
+    Private Sub btnAddButton_Click(sender As Object, e As EventArgs) Handles btnAddButton.Click
+        'declare input number variable
+        Dim inputNum As Integer
+        'input to variable from textbox
+        inputNum = CInt(txtNumInput.Text)
+        'add to total sum
+        total = total + inputNum
+        'clear the textbox
+        txtNumInput.Text = ""
+    End Sub
+    Private Sub btnOutputTotal_Click(sender As Object, e As EventArgs) Handles btnOutputTotal.Click
+        'show the total sum to output textbox
+        txtOutput.Text = CStr(total)
+    End Sub
+End Class
