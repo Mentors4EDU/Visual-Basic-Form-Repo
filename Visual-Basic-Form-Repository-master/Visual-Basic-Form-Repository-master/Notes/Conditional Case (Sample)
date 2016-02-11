@@ -1,0 +1,12 @@
+ Dim callNum As Integer
+        callNum = CInt(InputBox("enter book call number"))
+        Select callNum
+            Case 100 To 199
+                MessageBox.Show("Basement")
+            Case 200 To 500, Is > 900
+                MessageBox.Show("Main Floor")
+            Case 700 To 750
+                MessageBox.Show("Archives")
+            Case 501 To 900
+                MessageBox.Show("Upper Floor")
+        End Select
