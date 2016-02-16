@@ -1,0 +1,11 @@
+Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnFtoc.Click
+        Dim fTemp As Double
+        Dim cTemp As Double
+        fTemp = CDbl(InputBox("Enter Temp"))
+        cTemp = ftoC(fTemp)
+        lstOut.Items.Add(cTemp)
+    End Sub
+    Function ftoC(Temp As Double) As Double
+        Return (5 / 9) * (Temp - 32)
+    End Function
+End Class
