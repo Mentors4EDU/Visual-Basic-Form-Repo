@@ -1,0 +1,29 @@
+ Private Sub btn179_15_Click(sender As Object, e As EventArgs) Handles btn179_15.Click
+        'input wind speed from textbox, 
+        'then call a function to return the category rating
+        'display category rating from here
+        Dim WindSpeed As Integer
+        WindSpeed = CInt(txtWInd.Text)
+        Hurricane = CInt(WhatHurricane(WindSpeed))
+        'Output
+        lstOut.Items.Add("For a windspeed of " & WindSpeed & "You get")
+        Dim Hurricane As Integer
+        WindSpeed = CInt(txtWInd.Text)
+    End Sub
+    Function WhatHurricane(w As Integer) As String
+        If w < 74 Then
+            Return "No Hurricane you wimp"
+        End If
+        Select Case w
+            Case 74 To 95
+                Return "Category one"
+            Case 96 To 100
+                Return "Category two"
+            Case 111 To 130
+                Return "Category three"
+            Case 131 To 155
+                Return "Category four"
+            Case Else
+        End Select
+        Return ""
+    End Function
