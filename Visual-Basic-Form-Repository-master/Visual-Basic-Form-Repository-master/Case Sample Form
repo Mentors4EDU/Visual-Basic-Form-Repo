@@ -1,0 +1,98 @@
+Public Class Form1
+    'Declare cost for lstbox
+    Private cost As Integer
+
+    Sub Main()
+        'Declare Score
+        Dim score As Integer
+        Console.WriteLine("Please enter a score between 0 and 100:")
+        score = CInt(Console.ReadLine().ToString()))
+        'Read lines
+        If score > 60 Then
+            Console.WriteLine("Pass")
+        End If
+        Console.ReadLine()
+        If score < 60 Then
+            Console.WriteLine("Fail")
+        End If
+        Console.ReadLine()
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles lblvolunteer.Click
+        'Declare radiobuttons
+        Dim rbn10 As RadioButton
+        Dim rbn5 As RadioButton
+        Dim rbn1 As RadioButton
+        'Pick a message (Show solutions)
+        If rbn10.Checked Then
+            MessageBox.Show("You can go to an after school party")
+        End If
+        If rbn5.Checked Then
+            MessageBox.Show("You can go to a class party")
+        End If
+        If rbn1.Checked Then
+            MessageBox.Show("You get a cupcake")
+        End If
+    End Sub
+
+    Private Sub lstbox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstbox1.SelectedIndexChanged
+        'Add Items to listbox
+        Me.Controls.Add(lstbox1)
+        lstbox1.Items.Add("Pizza")
+        lstbox1.Items.Add("Bacon")
+        lstbox1.Items.Add("Ham")
+        lstbox1.Items.Add("Feta Cheese")
+        'Create Sorted Set
+        SortedSet = lstbox1.SelectedItem
+        'Using case statements
+        'Select Case
+        Select Case lstbox1.SelectedItem
+            Case "Pizza"
+                'Declare cost
+                Dim cost As Integer
+                cost = 8
+            Case "Bacon"
+                cost = 1
+            Case "Ham"
+                cost = 2
+            Case "Feta Cheese"
+                cost = 1
+                'End case statements
+        End Select
+
+    End Sub
+
+    Private Function lstbox1_SelectedIndexChanged() As Integer
+        Throw New NotImplementedException()
+    End Function
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles cbox1.CheckedChanged
+        If cbox1.Checked Then
+            cbox1.Capture = CBool("small")
+        End If
+    End Sub
+
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
+        Dim message, title, defaultValue As String
+        Dim myValue As Object
+        message = "What color do you want"
+        title = "Question 4"
+        defaultValue = "10"
+        myValue = InputBox(message, title, defaultValue, 10, 10)
+    End Sub
+
+    Private Sub cbox2_CheckedChanged(sender As Object, e As EventArgs) Handles cbox2.CheckedChanged
+        cbox2.Checked Then
+            cbox2.Capture = CBool("Medium")
+    End Sub
+
+    Private Sub cbox3_CheckedChanged(sender As Object, e As EventArgs) Handles cbox3.CheckedChanged
+        cbox3.Checked Then
+            cbox3.Capture = CBool("Large")
+    End Sub
+
+    Private Sub cbox4_CheckedChanged(sender As Object, e As EventArgs) Handles cbox4.CheckedChanged
+        cbox4.Checked Then
+            cbox4.Capture = CBool("XLarge")
+    End Sub
+End Class
