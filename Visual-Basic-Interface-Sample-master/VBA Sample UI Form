@@ -1,0 +1,558 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.btn195_34 = New System.Windows.Forms.Button()
+        Me.btn195_36 = New System.Windows.Forms.Button()
+        Me.btn206_12 = New System.Windows.Forms.Button()
+        Me.btn205_10 = New System.Windows.Forms.Button()
+        Me.btnBadFunction = New System.Windows.Forms.Button()
+        Me.btnByVal1 = New System.Windows.Forms.Button()
+        Me.lstOut = New System.Windows.Forms.ListBox()
+        Me.txtOccupation = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtBill = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtTip = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtPaycheck = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.txtRate = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.txtHours = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txtFirst = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.txtLast = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.txtExam1 = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.txtExam2 = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.txtExam3 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.txtMinPay = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.txtNewBal = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.txtCredits = New System.Windows.Forms.TextBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.txtCharges = New System.Windows.Forms.TextBox()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.txtOldBal = New System.Windows.Forms.TextBox()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.txtOvertimehours = New System.Windows.Forms.TextBox()
+        Me.btnGoodFunction = New System.Windows.Forms.Button()
+        Me.btnbyRef1 = New System.Windows.Forms.Button()
+        Me.compareFunctionProcedure = New System.Windows.Forms.Button()
+        Me.btnAllThree = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'btn195_34
+        '
+        Me.btn195_34.Location = New System.Drawing.Point(76, 201)
+        Me.btn195_34.Name = "btn195_34"
+        Me.btn195_34.Size = New System.Drawing.Size(180, 64)
+        Me.btn195_34.TabIndex = 0
+        Me.btn195_34.Text = "195 34"
+        Me.btn195_34.UseVisualStyleBackColor = True
+        '
+        'btn195_36
+        '
+        Me.btn195_36.Location = New System.Drawing.Point(76, 273)
+        Me.btn195_36.Name = "btn195_36"
+        Me.btn195_36.Size = New System.Drawing.Size(180, 69)
+        Me.btn195_36.TabIndex = 1
+        Me.btn195_36.Text = "195 36"
+        Me.btn195_36.UseVisualStyleBackColor = True
+        '
+        'btn206_12
+        '
+        Me.btn206_12.Location = New System.Drawing.Point(299, 507)
+        Me.btn206_12.Name = "btn206_12"
+        Me.btn206_12.Size = New System.Drawing.Size(180, 69)
+        Me.btn206_12.TabIndex = 2
+        Me.btn206_12.Text = "206 12"
+        Me.btn206_12.UseVisualStyleBackColor = True
+        '
+        'btn205_10
+        '
+        Me.btn205_10.Location = New System.Drawing.Point(473, 392)
+        Me.btn205_10.Name = "btn205_10"
+        Me.btn205_10.Size = New System.Drawing.Size(180, 69)
+        Me.btn205_10.TabIndex = 3
+        Me.btn205_10.Text = "205 10"
+        Me.btn205_10.UseVisualStyleBackColor = True
+        '
+        'btnBadFunction
+        '
+        Me.btnBadFunction.Location = New System.Drawing.Point(531, 12)
+        Me.btnBadFunction.Name = "btnBadFunction"
+        Me.btnBadFunction.Size = New System.Drawing.Size(140, 78)
+        Me.btnBadFunction.TabIndex = 4
+        Me.btnBadFunction.Text = "bad function"
+        Me.btnBadFunction.UseVisualStyleBackColor = True
+        '
+        'btnByVal1
+        '
+        Me.btnByVal1.Location = New System.Drawing.Point(40, 12)
+        Me.btnByVal1.Name = "btnByVal1"
+        Me.btnByVal1.Size = New System.Drawing.Size(140, 78)
+        Me.btnByVal1.TabIndex = 5
+        Me.btnByVal1.Text = "byval procedure"
+        Me.btnByVal1.UseVisualStyleBackColor = True
+        '
+        'lstOut
+        '
+        Me.lstOut.FormattingEnabled = True
+        Me.lstOut.ItemHeight = 24
+        Me.lstOut.Location = New System.Drawing.Point(449, 597)
+        Me.lstOut.Name = "lstOut"
+        Me.lstOut.Size = New System.Drawing.Size(826, 148)
+        Me.lstOut.TabIndex = 6
+        '
+        'txtOccupation
+        '
+        Me.txtOccupation.Location = New System.Drawing.Point(266, 213)
+        Me.txtOccupation.Name = "txtOccupation"
+        Me.txtOccupation.Size = New System.Drawing.Size(232, 29)
+        Me.txtOccupation.TabIndex = 7
+        Me.txtOccupation.Text = "hair dresser"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(278, 173)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(107, 24)
+        Me.Label1.TabIndex = 8
+        Me.Label1.Text = "Occupation"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(529, 178)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(105, 24)
+        Me.Label2.TabIndex = 10
+        Me.Label2.Text = "Bill Amount"
+        '
+        'txtBill
+        '
+        Me.txtBill.Location = New System.Drawing.Point(535, 214)
+        Me.txtBill.Name = "txtBill"
+        Me.txtBill.Size = New System.Drawing.Size(79, 29)
+        Me.txtBill.TabIndex = 9
+        Me.txtBill.Text = "20"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(698, 178)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(131, 24)
+        Me.Label3.TabIndex = 12
+        Me.Label3.Text = "Percentage tip"
+        '
+        'txtTip
+        '
+        Me.txtTip.Location = New System.Drawing.Point(698, 214)
+        Me.txtTip.Name = "txtTip"
+        Me.txtTip.Size = New System.Drawing.Size(47, 29)
+        Me.txtTip.TabIndex = 11
+        Me.txtTip.Text = "15"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(540, 497)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(92, 24)
+        Me.Label4.TabIndex = 18
+        Me.Label4.Text = "Paycheck"
+        '
+        'txtPaycheck
+        '
+        Me.txtPaycheck.Location = New System.Drawing.Point(546, 536)
+        Me.txtPaycheck.Name = "txtPaycheck"
+        Me.txtPaycheck.Size = New System.Drawing.Size(107, 29)
+        Me.txtPaycheck.TabIndex = 17
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(145, 509)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(48, 24)
+        Me.Label5.TabIndex = 16
+        Me.Label5.Text = "Rate"
+        '
+        'txtRate
+        '
+        Me.txtRate.Location = New System.Drawing.Point(149, 536)
+        Me.txtRate.Name = "txtRate"
+        Me.txtRate.Size = New System.Drawing.Size(107, 29)
+        Me.txtRate.TabIndex = 15
+        Me.txtRate.Text = "10"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(51, 509)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(61, 24)
+        Me.Label6.TabIndex = 14
+        Me.Label6.Text = "Hours"
+        '
+        'txtHours
+        '
+        Me.txtHours.Location = New System.Drawing.Point(55, 536)
+        Me.txtHours.Name = "txtHours"
+        Me.txtHours.Size = New System.Drawing.Size(84, 29)
+        Me.txtHours.TabIndex = 13
+        Me.txtHours.Text = "42"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(262, 273)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(98, 24)
+        Me.Label8.TabIndex = 20
+        Me.Label8.Text = "First name"
+        '
+        'txtFirst
+        '
+        Me.txtFirst.Location = New System.Drawing.Point(266, 300)
+        Me.txtFirst.Name = "txtFirst"
+        Me.txtFirst.Size = New System.Drawing.Size(139, 29)
+        Me.txtFirst.TabIndex = 19
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(422, 273)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(99, 24)
+        Me.Label7.TabIndex = 22
+        Me.Label7.Text = "Last Name"
+        '
+        'txtLast
+        '
+        Me.txtLast.Location = New System.Drawing.Point(426, 300)
+        Me.txtLast.Name = "txtLast"
+        Me.txtLast.Size = New System.Drawing.Size(136, 29)
+        Me.txtLast.TabIndex = 21
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(604, 273)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(74, 24)
+        Me.Label9.TabIndex = 24
+        Me.Label9.Text = "Exam 1"
+        '
+        'txtExam1
+        '
+        Me.txtExam1.Location = New System.Drawing.Point(608, 300)
+        Me.txtExam1.Name = "txtExam1"
+        Me.txtExam1.Size = New System.Drawing.Size(84, 29)
+        Me.txtExam1.TabIndex = 23
+        Me.txtExam1.Text = "90"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(749, 273)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(74, 24)
+        Me.Label10.TabIndex = 26
+        Me.Label10.Text = "Exam 2"
+        '
+        'txtExam2
+        '
+        Me.txtExam2.Location = New System.Drawing.Point(753, 300)
+        Me.txtExam2.Name = "txtExam2"
+        Me.txtExam2.Size = New System.Drawing.Size(84, 29)
+        Me.txtExam2.TabIndex = 25
+        Me.txtExam2.Text = "65"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(900, 273)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(74, 24)
+        Me.Label11.TabIndex = 28
+        Me.Label11.Text = "Exam 3"
+        '
+        'txtExam3
+        '
+        Me.txtExam3.Location = New System.Drawing.Point(904, 300)
+        Me.txtExam3.Name = "txtExam3"
+        Me.txtExam3.Size = New System.Drawing.Size(84, 29)
+        Me.txtExam3.TabIndex = 27
+        Me.txtExam3.Text = "87"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(875, 392)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(119, 24)
+        Me.Label12.TabIndex = 38
+        Me.Label12.Text = "Min Payment"
+        '
+        'txtMinPay
+        '
+        Me.txtMinPay.Location = New System.Drawing.Point(909, 430)
+        Me.txtMinPay.Name = "txtMinPay"
+        Me.txtMinPay.Size = New System.Drawing.Size(84, 29)
+        Me.txtMinPay.TabIndex = 37
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(677, 392)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(122, 24)
+        Me.Label13.TabIndex = 36
+        Me.Label13.Text = "New Balance"
+        '
+        'txtNewBal
+        '
+        Me.txtNewBal.Location = New System.Drawing.Point(717, 428)
+        Me.txtNewBal.Name = "txtNewBal"
+        Me.txtNewBal.Size = New System.Drawing.Size(84, 29)
+        Me.txtNewBal.TabIndex = 35
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(347, 392)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(68, 24)
+        Me.Label14.TabIndex = 34
+        Me.Label14.Text = "Credits"
+        '
+        'txtCredits
+        '
+        Me.txtCredits.Location = New System.Drawing.Point(357, 428)
+        Me.txtCredits.Name = "txtCredits"
+        Me.txtCredits.Size = New System.Drawing.Size(84, 29)
+        Me.txtCredits.TabIndex = 33
+        Me.txtCredits.Text = "100"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(216, 392)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(81, 24)
+        Me.Label15.TabIndex = 32
+        Me.Label15.Text = "Charges"
+        '
+        'txtCharges
+        '
+        Me.txtCharges.Location = New System.Drawing.Point(230, 428)
+        Me.txtCharges.Name = "txtCharges"
+        Me.txtCharges.Size = New System.Drawing.Size(84, 29)
+        Me.txtCharges.TabIndex = 31
+        Me.txtCharges.Text = "150"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(36, 392)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(113, 24)
+        Me.Label16.TabIndex = 30
+        Me.Label16.Text = "Old Balance"
+        '
+        'txtOldBal
+        '
+        Me.txtOldBal.Location = New System.Drawing.Point(55, 428)
+        Me.txtOldBal.Name = "txtOldBal"
+        Me.txtOldBal.Size = New System.Drawing.Size(84, 29)
+        Me.txtOldBal.TabIndex = 29
+        Me.txtOldBal.Text = "200"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(728, 497)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(86, 24)
+        Me.Label17.TabIndex = 40
+        Me.Label17.Text = "Overtime"
+        '
+        'txtOvertimehours
+        '
+        Me.txtOvertimehours.Location = New System.Drawing.Point(732, 536)
+        Me.txtOvertimehours.Name = "txtOvertimehours"
+        Me.txtOvertimehours.Size = New System.Drawing.Size(107, 29)
+        Me.txtOvertimehours.TabIndex = 39
+        '
+        'btnGoodFunction
+        '
+        Me.btnGoodFunction.Location = New System.Drawing.Point(381, 12)
+        Me.btnGoodFunction.Name = "btnGoodFunction"
+        Me.btnGoodFunction.Size = New System.Drawing.Size(140, 78)
+        Me.btnGoodFunction.TabIndex = 41
+        Me.btnGoodFunction.Text = "good function"
+        Me.btnGoodFunction.UseVisualStyleBackColor = True
+        '
+        'btnbyRef1
+        '
+        Me.btnbyRef1.Location = New System.Drawing.Point(190, 12)
+        Me.btnbyRef1.Name = "btnbyRef1"
+        Me.btnbyRef1.Size = New System.Drawing.Size(140, 78)
+        Me.btnbyRef1.TabIndex = 42
+        Me.btnbyRef1.Text = "byref procedure"
+        Me.btnbyRef1.UseVisualStyleBackColor = True
+        '
+        'compareFunctionProcedure
+        '
+        Me.compareFunctionProcedure.Location = New System.Drawing.Point(972, 12)
+        Me.compareFunctionProcedure.Name = "compareFunctionProcedure"
+        Me.compareFunctionProcedure.Size = New System.Drawing.Size(216, 78)
+        Me.compareFunctionProcedure.TabIndex = 43
+        Me.compareFunctionProcedure.Text = "compare function and proc"
+        Me.compareFunctionProcedure.UseVisualStyleBackColor = True
+        '
+        'btnAllThree
+        '
+        Me.btnAllThree.Location = New System.Drawing.Point(717, 12)
+        Me.btnAllThree.Name = "btnAllThree"
+        Me.btnAllThree.Size = New System.Drawing.Size(216, 78)
+        Me.btnAllThree.TabIndex = 44
+        Me.btnAllThree.Text = "compare function and proc byval byref"
+        Me.btnAllThree.UseVisualStyleBackColor = True
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1397, 810)
+        Me.Controls.Add(Me.btnAllThree)
+        Me.Controls.Add(Me.compareFunctionProcedure)
+        Me.Controls.Add(Me.btnbyRef1)
+        Me.Controls.Add(Me.btnGoodFunction)
+        Me.Controls.Add(Me.Label17)
+        Me.Controls.Add(Me.txtOvertimehours)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.txtMinPay)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.txtNewBal)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.txtCredits)
+        Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.txtCharges)
+        Me.Controls.Add(Me.Label16)
+        Me.Controls.Add(Me.txtOldBal)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.txtExam3)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.txtExam2)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.txtExam1)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.txtLast)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.txtFirst)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.txtPaycheck)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.txtRate)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.txtHours)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.txtTip)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.txtBill)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.txtOccupation)
+        Me.Controls.Add(Me.lstOut)
+        Me.Controls.Add(Me.btnByVal1)
+        Me.Controls.Add(Me.btnBadFunction)
+        Me.Controls.Add(Me.btn205_10)
+        Me.Controls.Add(Me.btn206_12)
+        Me.Controls.Add(Me.btn195_36)
+        Me.Controls.Add(Me.btn195_34)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(6)
+        Me.Name = "Form1"
+        Me.Text = "Chapter 5.2 and 5.3"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents btn195_34 As System.Windows.Forms.Button
+    Friend WithEvents btn195_36 As System.Windows.Forms.Button
+    Friend WithEvents btn206_12 As System.Windows.Forms.Button
+    Friend WithEvents btn205_10 As System.Windows.Forms.Button
+    Friend WithEvents btnBadFunction As System.Windows.Forms.Button
+    Friend WithEvents btnByVal1 As System.Windows.Forms.Button
+    Friend WithEvents lstOut As System.Windows.Forms.ListBox
+    Friend WithEvents txtOccupation As System.Windows.Forms.TextBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents txtBill As System.Windows.Forms.TextBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents txtTip As System.Windows.Forms.TextBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents txtPaycheck As System.Windows.Forms.TextBox
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents txtRate As System.Windows.Forms.TextBox
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents txtHours As System.Windows.Forms.TextBox
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents txtFirst As System.Windows.Forms.TextBox
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents txtLast As System.Windows.Forms.TextBox
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents txtExam1 As System.Windows.Forms.TextBox
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents txtExam2 As System.Windows.Forms.TextBox
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents txtExam3 As System.Windows.Forms.TextBox
+    Friend WithEvents Label12 As System.Windows.Forms.Label
+    Friend WithEvents txtMinPay As System.Windows.Forms.TextBox
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents txtNewBal As System.Windows.Forms.TextBox
+    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents txtCredits As System.Windows.Forms.TextBox
+    Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents txtCharges As System.Windows.Forms.TextBox
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents txtOldBal As System.Windows.Forms.TextBox
+    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents txtOvertimehours As System.Windows.Forms.TextBox
+    Friend WithEvents btnGoodFunction As System.Windows.Forms.Button
+    Friend WithEvents btnbyRef1 As System.Windows.Forms.Button
+    Friend WithEvents compareFunctionProcedure As System.Windows.Forms.Button
+    Friend WithEvents btnAllThree As System.Windows.Forms.Button
+
+End Class
