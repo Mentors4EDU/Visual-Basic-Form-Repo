@@ -1,0 +1,7 @@
+'Loop sample using Do While
+Private Sub btnDOwhileString_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnDOwhileString.Click
+        Dim wrd As String = "ABCDE"
+        Dim i As Integer
+        Do While i < wrd.Length
+            lstOUT.Items.Add(wrd.Substring(i, 1))
+        Loop
