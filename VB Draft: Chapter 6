@@ -1,0 +1,678 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.btn234_26 = New System.Windows.Forms.Button()
+        Me.btn235_32 = New System.Windows.Forms.Button()
+        Me.btnPswd1 = New System.Windows.Forms.Button()
+        Me.btnfornextnumbers = New System.Windows.Forms.Button()
+        Me.btn234_27 = New System.Windows.Forms.Button()
+        Me.btn248_22 = New System.Windows.Forms.Button()
+        Me.btn249_28 = New System.Windows.Forms.Button()
+        Me.lstOUT = New System.Windows.Forms.ListBox()
+        Me.btnCountVowels = New System.Windows.Forms.Button()
+        Me.btnDOwhileString = New System.Windows.Forms.Button()
+        Me.btnDoWhile = New System.Windows.Forms.Button()
+        Me.btnPswd2 = New System.Windows.Forms.Button()
+        Me.btn235_30 = New System.Windows.Forms.Button()
+        Me.txtAmount = New System.Windows.Forms.TextBox()
+        Me.txtInterest = New System.Windows.Forms.TextBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.btnNest2 = New System.Windows.Forms.Button()
+        Me.btnNested = New System.Windows.Forms.Button()
+        Me.btn250_32 = New System.Windows.Forms.Button()
+        Me.btn248_21 = New System.Windows.Forms.Button()
+        Me.btn251_34 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.btnforNextLetters = New System.Windows.Forms.Button()
+        Me.btnInf = New System.Windows.Forms.Button()
+        Me.btnInfTextbox = New System.Windows.Forms.Button()
+        Me.txtINF = New System.Windows.Forms.TextBox()
+        Me.btnSentinal = New System.Windows.Forms.Button()
+        Me.btnPostWhile = New System.Windows.Forms.Button()
+        Me.btnForEach = New System.Windows.Forms.Button()
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'btn234_26
+        '
+        Me.btn234_26.Location = New System.Drawing.Point(27, 96)
+        Me.btn234_26.Name = "btn234_26"
+        Me.btn234_26.Size = New System.Drawing.Size(125, 65)
+        Me.btn234_26.TabIndex = 0
+        Me.btn234_26.Text = "234 26"
+        Me.btn234_26.UseVisualStyleBackColor = True
+        '
+        'btn235_32
+        '
+        Me.btn235_32.Location = New System.Drawing.Point(520, 166)
+        Me.btn235_32.Name = "btn235_32"
+        Me.btn235_32.Size = New System.Drawing.Size(125, 65)
+        Me.btn235_32.TabIndex = 1
+        Me.btn235_32.Text = "235 32"
+        Me.btn235_32.UseVisualStyleBackColor = True
+        '
+        'btnPswd1
+        '
+        Me.btnPswd1.Location = New System.Drawing.Point(432, 25)
+        Me.btnPswd1.Name = "btnPswd1"
+        Me.btnPswd1.Size = New System.Drawing.Size(125, 65)
+        Me.btnPswd1.TabIndex = 2
+        Me.btnPswd1.Text = "password 1"
+        Me.btnPswd1.UseVisualStyleBackColor = True
+        '
+        'btnfornextnumbers
+        '
+        Me.btnfornextnumbers.Location = New System.Drawing.Point(27, 36)
+        Me.btnfornextnumbers.Name = "btnfornextnumbers"
+        Me.btnfornextnumbers.Size = New System.Drawing.Size(83, 129)
+        Me.btnfornextnumbers.TabIndex = 3
+        Me.btnfornextnumbers.Text = "for next with numbers"
+        Me.btnfornextnumbers.UseVisualStyleBackColor = True
+        '
+        'btn234_27
+        '
+        Me.btn234_27.Location = New System.Drawing.Point(158, 95)
+        Me.btn234_27.Name = "btn234_27"
+        Me.btn234_27.Size = New System.Drawing.Size(125, 65)
+        Me.btn234_27.TabIndex = 4
+        Me.btn234_27.Text = "234 27"
+        Me.btn234_27.UseVisualStyleBackColor = True
+        '
+        'btn248_22
+        '
+        Me.btn248_22.Location = New System.Drawing.Point(177, 190)
+        Me.btn248_22.Name = "btn248_22"
+        Me.btn248_22.Size = New System.Drawing.Size(125, 47)
+        Me.btn248_22.TabIndex = 5
+        Me.btn248_22.Text = "248 22"
+        Me.btn248_22.UseVisualStyleBackColor = True
+        '
+        'btn249_28
+        '
+        Me.btn249_28.Location = New System.Drawing.Point(331, 190)
+        Me.btn249_28.Name = "btn249_28"
+        Me.btn249_28.Size = New System.Drawing.Size(125, 47)
+        Me.btn249_28.TabIndex = 6
+        Me.btn249_28.Text = "249 28"
+        Me.btn249_28.UseVisualStyleBackColor = True
+        '
+        'lstOUT
+        '
+        Me.lstOUT.FormattingEnabled = True
+        Me.lstOUT.ItemHeight = 20
+        Me.lstOUT.Items.AddRange(New Object() {"red", "blue", "green", "purple"})
+        Me.lstOUT.Location = New System.Drawing.Point(770, 50)
+        Me.lstOUT.Name = "lstOUT"
+        Me.lstOUT.Size = New System.Drawing.Size(352, 424)
+        Me.lstOUT.TabIndex = 9
+        '
+        'btnCountVowels
+        '
+        Me.btnCountVowels.Location = New System.Drawing.Point(289, 25)
+        Me.btnCountVowels.Name = "btnCountVowels"
+        Me.btnCountVowels.Size = New System.Drawing.Size(125, 65)
+        Me.btnCountVowels.TabIndex = 12
+        Me.btnCountVowels.Text = "count vowels"
+        Me.btnCountVowels.UseVisualStyleBackColor = True
+        '
+        'btnDOwhileString
+        '
+        Me.btnDOwhileString.Location = New System.Drawing.Point(158, 25)
+        Me.btnDOwhileString.Name = "btnDOwhileString"
+        Me.btnDOwhileString.Size = New System.Drawing.Size(125, 65)
+        Me.btnDOwhileString.TabIndex = 11
+        Me.btnDOwhileString.Text = "do while with string"
+        Me.btnDOwhileString.UseVisualStyleBackColor = True
+        '
+        'btnDoWhile
+        '
+        Me.btnDoWhile.Location = New System.Drawing.Point(27, 25)
+        Me.btnDoWhile.Name = "btnDoWhile"
+        Me.btnDoWhile.Size = New System.Drawing.Size(125, 65)
+        Me.btnDoWhile.TabIndex = 10
+        Me.btnDoWhile.Text = "do while with numbers"
+        Me.btnDoWhile.UseVisualStyleBackColor = True
+        '
+        'btnPswd2
+        '
+        Me.btnPswd2.Location = New System.Drawing.Point(573, 25)
+        Me.btnPswd2.Name = "btnPswd2"
+        Me.btnPswd2.Size = New System.Drawing.Size(125, 65)
+        Me.btnPswd2.TabIndex = 13
+        Me.btnPswd2.Text = "password 2"
+        Me.btnPswd2.UseVisualStyleBackColor = True
+        '
+        'btn235_30
+        '
+        Me.btn235_30.Location = New System.Drawing.Point(27, 166)
+        Me.btn235_30.Name = "btn235_30"
+        Me.btn235_30.Size = New System.Drawing.Size(125, 65)
+        Me.btn235_30.TabIndex = 14
+        Me.btn235_30.Text = "235 30"
+        Me.btn235_30.UseVisualStyleBackColor = True
+        '
+        'txtAmount
+        '
+        Me.txtAmount.Location = New System.Drawing.Point(158, 195)
+        Me.txtAmount.Name = "txtAmount"
+        Me.txtAmount.Size = New System.Drawing.Size(109, 26)
+        Me.txtAmount.TabIndex = 15
+        Me.txtAmount.Text = "12000"
+        '
+        'txtInterest
+        '
+        Me.txtInterest.Location = New System.Drawing.Point(273, 195)
+        Me.txtInterest.Name = "txtInterest"
+        Me.txtInterest.Size = New System.Drawing.Size(109, 26)
+        Me.txtInterest.TabIndex = 16
+        Me.txtInterest.Text = ".03"
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.btnDoWhile)
+        Me.GroupBox1.Controls.Add(Me.btn234_27)
+        Me.GroupBox1.Controls.Add(Me.txtInterest)
+        Me.GroupBox1.Controls.Add(Me.btn234_26)
+        Me.GroupBox1.Controls.Add(Me.txtAmount)
+        Me.GroupBox1.Controls.Add(Me.btn235_32)
+        Me.GroupBox1.Controls.Add(Me.btn235_30)
+        Me.GroupBox1.Controls.Add(Me.btnPswd1)
+        Me.GroupBox1.Controls.Add(Me.btnPswd2)
+        Me.GroupBox1.Controls.Add(Me.btnDOwhileString)
+        Me.GroupBox1.Controls.Add(Me.btnCountVowels)
+        Me.GroupBox1.Location = New System.Drawing.Point(30, 23)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(734, 237)
+        Me.GroupBox1.TabIndex = 17
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Section 6.1"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(277, 165)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(146, 20)
+        Me.Label2.TabIndex = 18
+        Me.Label2.Text = "annual interest rate"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(158, 163)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(63, 20)
+        Me.Label1.TabIndex = 17
+        Me.Label1.Text = "amount"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.btnNest2)
+        Me.GroupBox2.Controls.Add(Me.btnNested)
+        Me.GroupBox2.Controls.Add(Me.btn250_32)
+        Me.GroupBox2.Controls.Add(Me.btn248_21)
+        Me.GroupBox2.Controls.Add(Me.btn251_34)
+        Me.GroupBox2.Controls.Add(Me.Button11)
+        Me.GroupBox2.Controls.Add(Me.Button10)
+        Me.GroupBox2.Controls.Add(Me.btnforNextLetters)
+        Me.GroupBox2.Controls.Add(Me.btnfornextnumbers)
+        Me.GroupBox2.Controls.Add(Me.btn248_22)
+        Me.GroupBox2.Controls.Add(Me.btn249_28)
+        Me.GroupBox2.Location = New System.Drawing.Point(30, 356)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(734, 269)
+        Me.GroupBox2.TabIndex = 18
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Section 6.2"
+        '
+        'btnNest2
+        '
+        Me.btnNest2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btnNest2.Location = New System.Drawing.Point(474, 36)
+        Me.btnNest2.Name = "btnNest2"
+        Me.btnNest2.Size = New System.Drawing.Size(83, 129)
+        Me.btnNest2.TabIndex = 11
+        Me.btnNest2.Text = "nested for next"
+        Me.btnNest2.UseVisualStyleBackColor = False
+        '
+        'btnNested
+        '
+        Me.btnNested.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btnNested.Location = New System.Drawing.Point(583, 36)
+        Me.btnNested.Name = "btnNested"
+        Me.btnNested.Size = New System.Drawing.Size(83, 129)
+        Me.btnNested.TabIndex = 10
+        Me.btnNested.Text = "nested for next"
+        Me.btnNested.UseVisualStyleBackColor = False
+        '
+        'btn250_32
+        '
+        Me.btn250_32.Location = New System.Drawing.Point(470, 190)
+        Me.btn250_32.Name = "btn250_32"
+        Me.btn250_32.Size = New System.Drawing.Size(125, 47)
+        Me.btn250_32.TabIndex = 9
+        Me.btn250_32.Text = "250 32"
+        Me.btn250_32.UseVisualStyleBackColor = True
+        '
+        'btn248_21
+        '
+        Me.btn248_21.Location = New System.Drawing.Point(27, 190)
+        Me.btn248_21.Name = "btn248_21"
+        Me.btn248_21.Size = New System.Drawing.Size(125, 47)
+        Me.btn248_21.TabIndex = 8
+        Me.btn248_21.Text = "248 21"
+        Me.btn248_21.UseVisualStyleBackColor = True
+        '
+        'btn251_34
+        '
+        Me.btn251_34.Location = New System.Drawing.Point(603, 190)
+        Me.btn251_34.Name = "btn251_34"
+        Me.btn251_34.Size = New System.Drawing.Size(125, 47)
+        Me.btn251_34.TabIndex = 7
+        Me.btn251_34.Text = "251 34"
+        Me.btn251_34.UseVisualStyleBackColor = True
+        '
+        'Button11
+        '
+        Me.Button11.Location = New System.Drawing.Point(351, 36)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(83, 129)
+        Me.Button11.TabIndex = 6
+        Me.Button11.Text = "for next with step 2"
+        Me.Button11.UseVisualStyleBackColor = True
+        '
+        'Button10
+        '
+        Me.Button10.Location = New System.Drawing.Point(233, 36)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(83, 129)
+        Me.Button10.TabIndex = 5
+        Me.Button10.Text = "for next with step"
+        Me.Button10.UseVisualStyleBackColor = True
+        '
+        'btnforNextLetters
+        '
+        Me.btnforNextLetters.Location = New System.Drawing.Point(127, 36)
+        Me.btnforNextLetters.Name = "btnforNextLetters"
+        Me.btnforNextLetters.Size = New System.Drawing.Size(83, 129)
+        Me.btnforNextLetters.TabIndex = 4
+        Me.btnforNextLetters.Text = "for next with string"
+        Me.btnforNextLetters.UseVisualStyleBackColor = True
+        '
+        'btnInf
+        '
+        Me.btnInf.Location = New System.Drawing.Point(1063, 517)
+        Me.btnInf.Name = "btnInf"
+        Me.btnInf.Size = New System.Drawing.Size(159, 46)
+        Me.btnInf.TabIndex = 19
+        Me.btnInf.Text = "infinite loop"
+        Me.btnInf.UseVisualStyleBackColor = True
+        '
+        'btnInfTextbox
+        '
+        Me.btnInfTextbox.Location = New System.Drawing.Point(898, 517)
+        Me.btnInfTextbox.Name = "btnInfTextbox"
+        Me.btnInfTextbox.Size = New System.Drawing.Size(159, 76)
+        Me.btnInfTextbox.TabIndex = 20
+        Me.btnInfTextbox.Text = "infinite loop TEXTBOX"
+        Me.btnInfTextbox.UseVisualStyleBackColor = True
+        '
+        'txtINF
+        '
+        Me.txtINF.Location = New System.Drawing.Point(897, 614)
+        Me.txtINF.Name = "txtINF"
+        Me.txtINF.Size = New System.Drawing.Size(159, 26)
+        Me.txtINF.TabIndex = 21
+        '
+        'btnSentinal
+        '
+        Me.btnSentinal.Location = New System.Drawing.Point(837, 647)
+        Me.btnSentinal.Name = "btnSentinal"
+        Me.btnSentinal.Size = New System.Drawing.Size(186, 39)
+        Me.btnSentinal.TabIndex = 22
+        Me.btnSentinal.Text = "sentinal loop"
+        Me.btnSentinal.UseVisualStyleBackColor = True
+        '
+        'btnPostWhile
+        '
+        Me.btnPostWhile.Location = New System.Drawing.Point(263, 281)
+        Me.btnPostWhile.Name = "btnPostWhile"
+        Me.btnPostWhile.Size = New System.Drawing.Size(276, 46)
+        Me.btnPostWhile.TabIndex = 23
+        Me.btnPostWhile.Text = "WHILE AT BOTTOM"
+        Me.btnPostWhile.UseVisualStyleBackColor = True
+        '
+        'btnForEach
+        '
+        Me.btnForEach.Location = New System.Drawing.Point(582, 647)
+        Me.btnForEach.Name = "btnForEach"
+        Me.btnForEach.Size = New System.Drawing.Size(146, 46)
+        Me.btnForEach.TabIndex = 24
+        Me.btnForEach.Text = "intro to for each"
+        Me.btnForEach.UseVisualStyleBackColor = True
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1284, 726)
+        Me.Controls.Add(Me.btnForEach)
+        Me.Controls.Add(Me.btnPostWhile)
+        Me.Controls.Add(Me.btnSentinal)
+        Me.Controls.Add(Me.txtINF)
+        Me.Controls.Add(Me.btnInfTextbox)
+        Me.Controls.Add(Me.btnInf)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.lstOUT)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Name = "Form1"
+        Me.Text = "Chapter 6"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents btn234_26 As System.Windows.Forms.Button
+    Friend WithEvents btn235_32 As System.Windows.Forms.Button
+    Friend WithEvents btnPswd1 As System.Windows.Forms.Button
+    Friend WithEvents btnfornextnumbers As System.Windows.Forms.Button
+    Friend WithEvents btn234_27 As System.Windows.Forms.Button
+    Friend WithEvents btn248_22 As System.Windows.Forms.Button
+    Friend WithEvents btn249_28 As System.Windows.Forms.Button
+    Friend WithEvents lstOUT As System.Windows.Forms.ListBox
+    Friend WithEvents btnCountVowels As System.Windows.Forms.Button
+    Friend WithEvents btnDOwhileString As System.Windows.Forms.Button
+    Friend WithEvents btnDoWhile As System.Windows.Forms.Button
+    Friend WithEvents btnPswd2 As System.Windows.Forms.Button
+    Friend WithEvents btn235_30 As System.Windows.Forms.Button
+    Friend WithEvents txtAmount As System.Windows.Forms.TextBox
+    Friend WithEvents txtInterest As System.Windows.Forms.TextBox
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents btnforNextLetters As System.Windows.Forms.Button
+    Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents Button11 As System.Windows.Forms.Button
+    Friend WithEvents btn251_34 As System.Windows.Forms.Button
+    Friend WithEvents btn248_21 As System.Windows.Forms.Button
+    Friend WithEvents btn250_32 As System.Windows.Forms.Button
+    Friend WithEvents btnInf As System.Windows.Forms.Button
+    Friend WithEvents btnInfTextbox As System.Windows.Forms.Button
+    Friend WithEvents txtINF As System.Windows.Forms.TextBox
+    Friend WithEvents btnSentinal As System.Windows.Forms.Button
+    Friend WithEvents btnPostWhile As System.Windows.Forms.Button
+    Friend WithEvents btnForEach As System.Windows.Forms.Button
+    Friend WithEvents btnNest2 As System.Windows.Forms.Button
+    Friend WithEvents btnNested As System.Windows.Forms.Button
+
+End Class
+Public Class Form1
+
+    'section 6.1 problems
+    Private Sub btnDoWhile_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnDoWhile.Click
+        lstOUT.Items.Clear()
+        Dim i, count As Integer
+        'Ask for initial balance
+        'Inside the loop ask the user for how they want
+        'Count how many transactions will it take tell they run out of money
+        Dim myBalance As Double
+        Dim Bill As Double
+        Dim transaction As Integer
+        myBalance = CDbl(InputBox("Enter starting balance"))
+        Do
+            Bill = CDbl(InputBox("Enter Bill"))
+            transaction += 1
+            myBalance = myBalance - Bill
+        Loop While myBalance >= 0
+        MessageBox.Show("on the " * transaction & "you ran out of money")
+
+        'input an integer, 
+        'then print the numbers from 0 to that number in a list box
+
+        ' GET INPUT
+
+
+
+    End Sub
+
+    Private Sub btnDOwhileString_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnDOwhileString.Click
+        Dim wrd As String = "ABCDE"
+        Dim i As Integer
+        Do While i < wrd.Length
+            lstOUT.Items.Add(wrd.Substring(i, 1))
+        Loop
+    End Sub
+
+    Private Sub btnCountVowels_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCountVowels.Click
+        Dim sentence As String
+        Dim count As Integer
+        Dim position As Integer
+        Dim letter As String
+        sentence = "The cat is rogers"
+        Do While position < sentence.Length
+
+        Loop
+        letter = sentence.Substring(position, 1).ToUpper
+        'write a decision code to detemine if the letter is a vowel
+        Select Case letter
+            Case "a", "e", "i", "o", "u"
+        End Select
+    End Sub
+  
+
+   
+
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPswd1.Click
+        lstOUT.Items.Clear()
+        Dim pswd As String = "BOZO"
+        Dim guess As String
+
+        'use a loop to allow a user to type in a password
+        'fall out of the loop when they enter "BOZO" 
+        'use a pre-test loop
+
+    End Sub
+
+    Private Sub btnPswd2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPswd2.Click
+        lstOUT.Items.Clear()
+        'use a post-test loop to allow a user to type in a password
+        'fall out of the loop when they enter "BOZO" or they try 3 times
+    End Sub
+
+    Private Sub Button3_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn235_30.Click
+        lstOUT.Items.Clear()
+        'Declare input and output variables, and loop control variables
+        Dim initBal, interest As Double
+        Dim newBal As Double
+        Dim years As Double
+        'Input values
+        initBal = CDbl(txtAmount.Text)
+        interest = CDbl(txtInterest.Text)
+        newBal = initBal
+        '228 30
+        ' balance at the end of the year is the following. Interest rate is a decimal like .05 for 5%
+        '       balance = balance * (1 + interest)
+        'determine how many years until the money doubles
+        'if you use the numbers in the text box, the answer should be 24
+
+    End Sub
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn235_32.Click
+        lstOUT.Items.Clear()
+        '235 32
+    End Sub
+    '-----------------------------------------------------------------------------
+    'section 6.2
+    'see bottom of page 231 for the discussion of block level scope
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnfornextnumbers.Click
+        lstOUT.Items.Clear()
+
+        'print out the numbers 1 to 10
+        'then print out the numbers 1 to 10 and the numbers 1 to 10 squared on same line
+        '1 1
+        '2 4
+        'etc
+    End Sub
+
+    Private Sub Button4_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnforNextLetters.Click
+        Dim words As String = "Hi there."
+        lstOUT.Items.Clear()
+        'print out one character at a time
+
+    End Sub
+
+
+  
+
+    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn249_28.Click
+        lstOUT.Items.Clear()
+        '240 28
+        'Sibilant : having, containing, or producing the sound with a hissing effect
+        'Ask for a sentence
+        'Count the number of letters s and z in the sentence
+
+    End Sub
+    Private Sub Button10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button10.Click
+        'for next with a step
+        'print out the odd numbers 1 to 99
+    End Sub
+
+    Private Sub Button11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button11.Click
+        lstOUT.Items.Clear()
+        'print out the odd numbers 99 to 1
+
+    End Sub
+
+    Private Sub Button12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn251_34.Click
+        lstOUT.Items.Clear()
+        '242 34
+        'do yourself
+    End Sub
+
+
+
+    Private Sub btn234_27_Click(sender As Object, e As EventArgs) Handles btn234_27.Click
+        lstOUT.Items.Clear()
+    End Sub
+
+    Private Sub btn250_32_Click(sender As Object, e As EventArgs) Handles btn250_32.Click
+        'see if all the letters in a words appear in the top row of a keyboard
+        'QWERTYUIOP
+        Dim sentIn As String
+
+    End Sub
+
+    Private Sub btnInf_Click(sender As Object, e As EventArgs) Handles btnInf.Click
+
+    End Sub
+
+    Private Sub btnInfTextbox_Click(sender As Object, e As EventArgs) Handles btnInfTextbox.Click
+
+    End Sub
+    Private Sub btn234_26_Click(sender As Object, e As EventArgs) Handles btn234_26.Click
+        'Ask the user to enter in a series of positive numbers
+        'Stop asking when they enter -1
+        'The purpose of this loop is to find the smallest number they enter is
+        Dim NumberIn, SmallestNum As String
+        Dim num As Double
+        SmallestNum = CStr(num)
+        Do While
+            NumberIn <>1
+
+    End Sub
+    Private Sub btnSentinal_Click(sender As Object, e As EventArgs) Handles btnSentinal.Click
+        'sum up the deposits to an account based on user input
+        'stop summing and prompting when they enter -1
+
+
+    End Sub
+
+    Private Sub btnPostWhile_Click(sender As Object, e As EventArgs) Handles btnPostWhile.Click
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnForEach.Click
+        Dim wordsIn As String
+        wordsIn = InputBox("enter a sentence")
+
+        'try out for each
+    End Sub
+
+    Private Sub btnNested_Click(sender As Object, e As EventArgs) Handles btnNested.Click
+        'print out a repeating grid of stars that looks like. User will enter in how many times to repeat
+        Dim stars As String
+        Dim howManyBlocks As Integer
+        howManyBlocks = CInt(InputBox("Enter number of blocks"))
+        For i As Integer = 1 To howManyBlocks
+            lstOUT.Items.Add(i)
+            For j As Integer 
+            Next
+            '*
+            '**
+            '***
+            '*
+            '**
+            '***
+    End Sub
+
+    Private Sub btnNest2_Click(sender As Object, e As EventArgs) Handles btnNest2.Click
+        'print out multiplication table
+        '1 2 3 4 5 
+        '2 4 6 8 10
+        '3 6 9 12 15
+        'etc
+        Dim numsOut As String = ""
+        For outer As Integer = 1 To 10
+            For inner As Integer = 1 To 5
+                lstOUT.Items.Add(outer * inner)
+                numsOut = numsOut & CStr(outer * inner) & " "
+            Next
+            lstOUT.Items.Add(numsOut)
+            numsOut = ""
+        Next
+        Dim numofBullets As Integer = 10
+        Dim numofBricks As Integer = 100
+        For bullet As Integer = 1 To numofBullets
+            'what do you have to do inside her to print out the line 1 2 3 4 5
+            For brick As Integer = 1 To numofBricks
+            Next
+        Next
+    End Sub
+
+    Private Sub btn248_21_Click(sender As Object, e As EventArgs) Handles btn248_21.Click
+        'Find the value of 1 + 1/2 + 1/3 + 1/4....1/100
+        Dim number As Integer
+    End Sub
+End Class
