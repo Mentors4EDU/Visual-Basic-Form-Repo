@@ -1,0 +1,10 @@
+ Dim myBalance As Double
+        Dim Bill As Double
+        Dim transaction As Integer
+        myBalance = CDbl(InputBox("Enter starting balance"))
+        Do
+            Bill = CDbl(InputBox("Enter Bill"))
+            transaction += 1
+            myBalance = myBalance - Bill
+        Loop While myBalance >= 0
+        MessageBox.Show("on the " * transaction & "you ran out of money")
