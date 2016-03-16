@@ -1,0 +1,442 @@
+Public Class Lab6
+    'Set property sub to declare an object
+    Public Property Thursday As Object
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Btnsubmit_Click(sender As Object, e As EventArgs) Handles Btnsubmit.Click
+        Dim userinput As Double
+        'Declare userinput as double
+        Dim inputType As String
+        'Convert the double for user input
+        userinput = CDbl(txtinput.Text)
+        'Declare input type
+        inputType = txtStatus.Text
+        'Declare a double
+        Dim converted As Double
+        'Set converted as what it is equal to
+        converted = converter(userinput, inputType)
+        'List the converted value
+        lstOutput.Items.Add(userinput & " " & inputType & "---" & converted)
+    End Sub
+    Function converter(Input As Double, status As String) As Double
+        'Create if statement for miles or kilometers
+        'Set up equations
+        If (status = "miles") Then
+            Input = Input * 1.60934
+        ElseIf (status = "kilometers") Then
+            Input = Input * 0.621371
+        End If
+        'Return input
+        Return Input
+    End Function
+
+    Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles txtOriginal.TextChanged
+
+    End Sub
+
+    Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
+        'Declare strings and doubles
+        Dim ItemName As String
+        Dim OriginalPrice As Double
+        Dim percentName As Double
+        'Name the item
+        ItemName = txtname.Text
+        'Set values for declerations
+        OriginalPrice = CDbl(txtOriginal.Text)
+        percentName = CDbl(txtDiscount.Text)
+        checkout(OriginalPrice, percentName)
+        'Set discount expression
+        lstOutput.Items.Add(ItemName & " cost with" & percentName & " Discount Is " & OriginalPrice)
+    End Sub
+    'Set ByRef procedure
+    Sub checkout(ByRef price As Double, ByRef discount As Double)
+        'Set up equation
+        price = price - (price * discount)
+
+    End Sub
+
+    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles txtGrade.TextChanged
+
+    End Sub
+
+    Private Sub txtStudentName_TextChanged(sender As Object, e As EventArgs) Handles txtStudentName.TextChanged
+
+    End Sub
+
+    Private Sub txtDate_TextChanged(sender As Object, e As EventArgs) Handles txtDate.TextChanged
+
+    End Sub
+
+    Private Sub txtTime_TextChanged(sender As Object, e As EventArgs) Handles txtTime.TextChanged
+
+    End Sub
+
+    Private Sub txtColor_TextChanged(sender As Object, e As EventArgs) Handles txtColor.TextChanged
+
+    End Sub
+
+    Private Sub txtQuantity_TextChanged(sender As Object, e As EventArgs) Handles txtQuantity.TextChanged
+
+    End Sub
+
+    Private Sub txtCostTotal_Click(sender As Object, e As EventArgs) Handles txtCostTotal.Click
+        'Declare variables
+        Dim shirtColor As String
+        Dim Quantity As Integer
+        Dim total As Double
+        'Set value for shirtColor
+        shirtColor = txtColor.Text
+        'Convert quantity as integer to a string
+        Quantity = CInt(txtQuantity.Text)
+        'Set the equation for total
+        total = Quantity * $10.50
+        'List out the expression
+        lstOutput.Items.Add("The " & "Total Price " & "for " & shirtColor & "with the quantity of " & Quantity & "is " & total)
+    End Sub
+
+    Private Sub btnGrade_Click(sender As Object, e As EventArgs) Handles btnGrade.Click
+        'Declare strings and integers
+        Dim Student As String
+        Dim Grade, Day, Time As Integer
+        'Set the euqual values for textboxs
+        Student = txtStudentName.Text
+        'Convert integers to strings
+        Grade = CInt(txtGrade.Text)
+        Day = CInt(txtDate.Text)
+        Time = CInt(txtTime.Text)
+        'List the expression
+        lstOutput.Items.Add(Student & " has a " & "score of" & Grade & " on " & Day & "During " & Time)
+
+    End Sub
+    'Create ByRef procedure
+    Sub Enter(ByRef Student As Double, ByRef Grade As Double, ByRef Day As Double, ByRef Time As Double)
+    End Sub
+
+    Private Sub txtStudentStanding_Click(sender As Object, e As EventArgs) Handles txtStudentStanding.Click
+        'Declare last name and class standing
+        Dim LastName As String
+        Dim Standing As String
+        'Set values
+        LastName = txtLast.Text
+        Standing = txtStudentStanding.Text
+        'Set property sub for freshment by declaring it as string
+        Dim Freshmen As String = Nothing
+
+        'Create case statements
+        If (Standing = Freshmen) Then
+            Standing = CType(Thursday, String)
+        ElseIf
+                (Standing = Sophmore) Then
+                Standing = CType(vbWednesday, String)
+        ElseIf
+                (Standing = Junior) Then
+                Standing = CType(vbTuesday, String)
+        Else
+            (Standing = Senior) Then
+            Standing = CType(vbMonday, String)
+            'End case statements
+        End If
+    End Sub
+
+    Private Sub txtLast_TextChanged(sender As Object, e As EventArgs) Handles txtLast.TextChanged
+
+    End Sub
+
+    Private Sub txtYr_TextChanged(sender As Object, e As EventArgs) Handles txtYr.TextChanged
+
+    End Sub
+
+    Private Sub txtinput_TextChanged(sender As Object, e As EventArgs) Handles txtinput.TextChanged
+
+    End Sub
+
+    Private Sub txtStatus_TextChanged(sender As Object, e As EventArgs) Handles txtStatus.TextChanged
+
+    End Sub
+
+    Private Sub lstOutput_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstOutput.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub txtname_TextChanged(sender As Object, e As EventArgs) Handles txtname.TextChanged
+
+    End Sub
+
+    Private Sub txtDiscount_TextChanged(sender As Object, e As EventArgs) Handles txtDiscount.TextChanged
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'Clear/ Void Event
+        lstOutput.Items.Clear()
+    End Sub
+End Class
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class Lab6
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Me.txtinput = New System.Windows.Forms.TextBox()
+        Me.lstOutput = New System.Windows.Forms.ListBox()
+        Me.Btnsubmit = New System.Windows.Forms.Button()
+        Me.txtStatus = New System.Windows.Forms.TextBox()
+        Me.txtname = New System.Windows.Forms.TextBox()
+        Me.txtOriginal = New System.Windows.Forms.TextBox()
+        Me.txtDiscount = New System.Windows.Forms.TextBox()
+        Me.btnCalculate = New System.Windows.Forms.Button()
+        Me.txtTime = New System.Windows.Forms.TextBox()
+        Me.txtGrade = New System.Windows.Forms.TextBox()
+        Me.txtStudentName = New System.Windows.Forms.TextBox()
+        Me.txtDate = New System.Windows.Forms.TextBox()
+        Me.btnGrade = New System.Windows.Forms.Button()
+        Me.txtColor = New System.Windows.Forms.TextBox()
+        Me.txtQuantity = New System.Windows.Forms.TextBox()
+        Me.txtCostTotal = New System.Windows.Forms.Button()
+        Me.txtLast = New System.Windows.Forms.TextBox()
+        Me.txtYr = New System.Windows.Forms.TextBox()
+        Me.txtStudentStanding = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'txtinput
+        '
+        Me.txtinput.Location = New System.Drawing.Point(12, 12)
+        Me.txtinput.Name = "txtinput"
+        Me.txtinput.Size = New System.Drawing.Size(100, 20)
+        Me.txtinput.TabIndex = 0
+        Me.txtinput.Text = "Speed"
+        '
+        'lstOutput
+        '
+        Me.lstOutput.FormattingEnabled = True
+        Me.lstOutput.Location = New System.Drawing.Point(128, 12)
+        Me.lstOutput.Name = "lstOutput"
+        Me.lstOutput.Size = New System.Drawing.Size(213, 95)
+        Me.lstOutput.TabIndex = 1
+        '
+        'Btnsubmit
+        '
+        Me.Btnsubmit.Location = New System.Drawing.Point(12, 65)
+        Me.Btnsubmit.Name = "Btnsubmit"
+        Me.Btnsubmit.Size = New System.Drawing.Size(100, 42)
+        Me.Btnsubmit.TabIndex = 2
+        Me.Btnsubmit.Text = "Submit"
+        Me.Btnsubmit.UseVisualStyleBackColor = True
+        '
+        'txtStatus
+        '
+        Me.txtStatus.Location = New System.Drawing.Point(12, 39)
+        Me.txtStatus.Name = "txtStatus"
+        Me.txtStatus.Size = New System.Drawing.Size(100, 20)
+        Me.txtStatus.TabIndex = 3
+        Me.txtStatus.Text = "Status"
+        '
+        'txtname
+        '
+        Me.txtname.Location = New System.Drawing.Point(12, 113)
+        Me.txtname.Name = "txtname"
+        Me.txtname.Size = New System.Drawing.Size(100, 20)
+        Me.txtname.TabIndex = 4
+        Me.txtname.Text = "Item Name"
+        '
+        'txtOriginal
+        '
+        Me.txtOriginal.Location = New System.Drawing.Point(12, 152)
+        Me.txtOriginal.Name = "txtOriginal"
+        Me.txtOriginal.Size = New System.Drawing.Size(100, 20)
+        Me.txtOriginal.TabIndex = 5
+        Me.txtOriginal.Text = "Original Price"
+        '
+        'txtDiscount
+        '
+        Me.txtDiscount.Location = New System.Drawing.Point(118, 152)
+        Me.txtDiscount.Name = "txtDiscount"
+        Me.txtDiscount.Size = New System.Drawing.Size(130, 20)
+        Me.txtDiscount.TabIndex = 6
+        Me.txtDiscount.Text = "Discount"
+        '
+        'btnCalculate
+        '
+        Me.btnCalculate.Location = New System.Drawing.Point(118, 113)
+        Me.btnCalculate.Name = "btnCalculate"
+        Me.btnCalculate.Size = New System.Drawing.Size(130, 20)
+        Me.btnCalculate.TabIndex = 7
+        Me.btnCalculate.Text = "Calculate"
+        Me.btnCalculate.UseVisualStyleBackColor = True
+        '
+        'txtTime
+        '
+        Me.txtTime.Location = New System.Drawing.Point(505, 61)
+        Me.txtTime.Name = "txtTime"
+        Me.txtTime.Size = New System.Drawing.Size(100, 20)
+        Me.txtTime.TabIndex = 8
+        Me.txtTime.Text = "Registration Time"
+        '
+        'txtGrade
+        '
+        Me.txtGrade.Location = New System.Drawing.Point(368, 61)
+        Me.txtGrade.Name = "txtGrade"
+        Me.txtGrade.Size = New System.Drawing.Size(100, 20)
+        Me.txtGrade.TabIndex = 9
+        Me.txtGrade.Text = "Grade"
+        '
+        'txtStudentName
+        '
+        Me.txtStudentName.Location = New System.Drawing.Point(368, 22)
+        Me.txtStudentName.Name = "txtStudentName"
+        Me.txtStudentName.Size = New System.Drawing.Size(100, 20)
+        Me.txtStudentName.TabIndex = 10
+        Me.txtStudentName.Text = "Student Name"
+        '
+        'txtDate
+        '
+        Me.txtDate.Location = New System.Drawing.Point(505, 22)
+        Me.txtDate.Name = "txtDate"
+        Me.txtDate.Size = New System.Drawing.Size(100, 20)
+        Me.txtDate.TabIndex = 11
+        Me.txtDate.Text = "Registration Date"
+        '
+        'btnGrade
+        '
+        Me.btnGrade.Location = New System.Drawing.Point(266, 113)
+        Me.btnGrade.Name = "btnGrade"
+        Me.btnGrade.Size = New System.Drawing.Size(75, 59)
+        Me.btnGrade.TabIndex = 12
+        Me.btnGrade.Text = "Student Grade"
+        Me.btnGrade.UseVisualStyleBackColor = True
+        '
+        'txtColor
+        '
+        Me.txtColor.Location = New System.Drawing.Point(368, 102)
+        Me.txtColor.Name = "txtColor"
+        Me.txtColor.Size = New System.Drawing.Size(100, 20)
+        Me.txtColor.TabIndex = 13
+        Me.txtColor.Text = "Shirt Color"
+        '
+        'txtQuantity
+        '
+        Me.txtQuantity.Location = New System.Drawing.Point(505, 102)
+        Me.txtQuantity.Name = "txtQuantity"
+        Me.txtQuantity.Size = New System.Drawing.Size(100, 20)
+        Me.txtQuantity.TabIndex = 14
+        Me.txtQuantity.Text = "Shirt Quantity"
+        '
+        'txtCostTotal
+        '
+        Me.txtCostTotal.Location = New System.Drawing.Point(406, 131)
+        Me.txtCostTotal.Name = "txtCostTotal"
+        Me.txtCostTotal.Size = New System.Drawing.Size(153, 41)
+        Me.txtCostTotal.TabIndex = 15
+        Me.txtCostTotal.Text = "Calculate Cost"
+        Me.txtCostTotal.UseVisualStyleBackColor = True
+        '
+        'txtLast
+        '
+        Me.txtLast.Location = New System.Drawing.Point(12, 191)
+        Me.txtLast.Name = "txtLast"
+        Me.txtLast.Size = New System.Drawing.Size(118, 20)
+        Me.txtLast.TabIndex = 16
+        Me.txtLast.Text = "Last Name"
+        '
+        'txtYr
+        '
+        Me.txtYr.Location = New System.Drawing.Point(136, 191)
+        Me.txtYr.Name = "txtYr"
+        Me.txtYr.Size = New System.Drawing.Size(112, 20)
+        Me.txtYr.TabIndex = 17
+        Me.txtYr.Text = "Year Standing"
+        '
+        'txtStudentStanding
+        '
+        Me.txtStudentStanding.Location = New System.Drawing.Point(266, 178)
+        Me.txtStudentStanding.Name = "txtStudentStanding"
+        Me.txtStudentStanding.Size = New System.Drawing.Size(142, 35)
+        Me.txtStudentStanding.TabIndex = 18
+        Me.txtStudentStanding.Text = "Calculate Student Status"
+        Me.txtStudentStanding.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Year supply of fairy cakes", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(423, 176)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(136, 47)
+        Me.Button1.TabIndex = 19
+        Me.Button1.Text = "Clear"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Lab6
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(615, 231)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.txtStudentStanding)
+        Me.Controls.Add(Me.txtYr)
+        Me.Controls.Add(Me.txtLast)
+        Me.Controls.Add(Me.txtCostTotal)
+        Me.Controls.Add(Me.txtQuantity)
+        Me.Controls.Add(Me.txtColor)
+        Me.Controls.Add(Me.btnGrade)
+        Me.Controls.Add(Me.txtDate)
+        Me.Controls.Add(Me.txtStudentName)
+        Me.Controls.Add(Me.txtGrade)
+        Me.Controls.Add(Me.txtTime)
+        Me.Controls.Add(Me.btnCalculate)
+        Me.Controls.Add(Me.txtDiscount)
+        Me.Controls.Add(Me.txtOriginal)
+        Me.Controls.Add(Me.txtname)
+        Me.Controls.Add(Me.txtStatus)
+        Me.Controls.Add(Me.Btnsubmit)
+        Me.Controls.Add(Me.lstOutput)
+        Me.Controls.Add(Me.txtinput)
+        Me.Name = "Lab6"
+        Me.Text = "Lab 6: Andrew Kamal"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents txtinput As TextBox
+    Friend WithEvents lstOutput As ListBox
+    Friend WithEvents Btnsubmit As Button
+    Friend WithEvents txtStatus As TextBox
+    Friend WithEvents txtname As TextBox
+    Friend WithEvents txtOriginal As TextBox
+    Friend WithEvents txtDiscount As TextBox
+    Friend WithEvents btnCalculate As Button
+    Friend WithEvents txtTime As TextBox
+    Friend WithEvents txtGrade As TextBox
+    Friend WithEvents txtStudentName As TextBox
+    Friend WithEvents txtDate As TextBox
+    Friend WithEvents btnGrade As Button
+    Friend WithEvents txtColor As TextBox
+    Friend WithEvents txtQuantity As TextBox
+    Friend WithEvents txtCostTotal As Button
+    Friend WithEvents txtLast As TextBox
+    Friend WithEvents txtYr As TextBox
+    Friend WithEvents txtStudentStanding As Button
+    Friend WithEvents Button1 As Button
+End Class
