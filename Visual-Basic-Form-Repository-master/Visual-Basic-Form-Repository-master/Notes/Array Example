@@ -1,0 +1,9 @@
+   Private Sub btnTeams_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnTeams.Click
+        Dim teams(3) As String
+        Dim num As Integer
+        teams(0) = "Packers"
+        teams(1) = "Packers"
+        teams(2) = "Jets"""
+        teams(3) = "Chiefs"
+        num = CInt(InputBox("Enter which superbowl"))
+        MessageBox.Show("The team that won SB number " & num & " is " & teams(num - 1))
