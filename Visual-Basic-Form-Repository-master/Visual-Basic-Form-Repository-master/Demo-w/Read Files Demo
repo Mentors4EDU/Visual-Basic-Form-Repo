@@ -1,0 +1,10 @@
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim colors() As String = IO.File.ReadAllLines("thursday.txt")
+        For i As Integer = 0 To colors.Count - 1
+            lstOut.Items.Add(colors(i))
+        Next
+        Dim age() As String = IO.File.ReadAllLines("age.txt")
+        For i As Integer = 0 To age.Count - 1
+            lstOut.Items.Add(age(i))
+        Next
+    End Sub
