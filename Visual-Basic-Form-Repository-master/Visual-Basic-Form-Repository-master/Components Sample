@@ -1,0 +1,12 @@
+ Private Sub btnInitialze_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInitialze.Click
+        'create an array of numbers and then print it out
+        'use the {...} to fill it in 
+        Dim Sum As Double
+        Dim myNums() As Double = {10, 20, 30, 40, 50}
+        For i As Integer = 0 To 4
+            lstOut.Items.Add(myNums(i))
+            Sum += myNums(i)
+        Next
+        lstOut.Items.Add("avg is " & Sum / 5)
+    End Sub
+    'Initialize array components
