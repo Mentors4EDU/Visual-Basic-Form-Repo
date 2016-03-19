@@ -1,0 +1,36 @@
+Public Class Form1
+    Private Sub lstOutPut_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstOutPut.SelectedIndexChanged
+    End Sub
+    Private Sub btnLoop_Click(sender As Object, e As EventArgs) Handles btnLoop.Click
+        '    Dim UserInput As Integer
+        '    'There is no value here
+        '    'Assigns initial value
+        '    UserInput = CInt(txtLoopInput.Text)
+        '    Do
+        '        lstOutPut.Items.Add("Loop Ran")
+        '        UserInput = UserInput - 1
+        '    Loop While UserInput > 5
+        '    'This is a post loop that will check at least once when running the code
+        ' Dim UserInput As Integer
+        'UserInput = CInt(txtLoopInput.Text)
+        '' "Step Example" For I As Integer = UserInput To 9 Step -1
+        'This is a nested loop example
+        'For I As Integer = 5 To 9
+        '    For J As Integer = 0 To 3
+        '        lstOutPut.Items.Add("Loop Ran")
+        '    Next
+        'Next
+        Dim UserInput As Integer
+        Dim Flag As Boolean = True
+        UserInput = CInt(txtLoopInput.Text)
+        Do While Flag = True
+        Loop
+        lstOutPut.Items.Add("Loop Ran")
+        UserInput = UserInput - 1
+        If (UserInput < 5) Then
+            Flag = False
+        End If
+    End Sub
+    Private Sub txtLoopInput_TextChanged(sender As Object, e As EventArgs) Handles txtLoopInput.TextChanged
+    End Sub
+End Class
