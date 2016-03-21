@@ -1,0 +1,124 @@
+Public Class Form1
+    Private Sub btnProblem1_Click(sender As Object, e As EventArgs) Handles btnProblem1.Click
+        'Declare UserInput as Double
+        Dim UserInput As Double
+        'Declare values for integers
+        Dim NumofValues As Integer
+        Dim Numberslessthen25 As Integer
+        Do While (UserInput <> -1)
+            'Convert double to string to show inputbox
+            UserInput = CDbl(InputBox("Enter any value, or -1 to stop"))
+            'Set logic through and If Then statement
+            If UserInput <> -1 Then
+                lstQuestion1Output.Items.Add(UserInput)
+                NumofValues += 1
+            End If
+            'Declare I as integer and go through number of values
+            For I As Integer = 0 To NumofValues - 1
+                'Convert integer
+                'Set if then statement
+                If CInt(lstQuestion1Output.Items(I)) > 25 Then
+                    Numberslessthen25 += 1
+                End If
+            Next
+            'Declare total as double
+            'Do math for the total values as a percentage
+            Dim total As Double = (Numberslessthen25 / NumofValues * 100)
+            'Convert string, show total as a percentage
+            MessageBox.Show(CStr(total) + "% of numbers that are less then 25")
+        Loop
+    End Sub
+    Private Sub lstQuestion1Output_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstQuestion1Output.SelectedIndexChanged
+    End Sub
+    Private Sub btntest2_Click(sender As Object, e As EventArgs) Handles btntest2.Click
+        'Set x as a random for guessing game
+        Dim x As New Random
+        'Declare integers
+        Dim answer As Integer
+        Dim userguess As Integer
+        Dim numofguesses As Integer
+        answer = x.Next(1, 11)
+        'Create loop while for guessing game
+        'Convert userguess from integer
+        Do
+            userguess = CInt(InputBox("Pick a number from 1 to 10"))
+            numofguesses += 1
+        Loop While (userguess <> answer)
+        'Display message for total number of guesses
+        MessageBox.Show("It took you " & CStr(numofguesses) & " guesses")
+    End Sub
+    Private Sub btntest3_Click(sender As Object, e As EventArgs) Handles btntest3.Click
+        'Declare total as Integer
+        Dim total As Integer
+        'Declare I as integer
+        'Go through index between 1 and zero
+        'Go through total by 1
+        For I As Integer = 1 To 100
+            total = total + I
+        Next
+        MessageBox.Show("The total is " & CStr(total))
+    End Sub
+    Private Sub lstQuestion4Output_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstQuestion4Output.SelectedIndexChanged
+    End Sub
+    Private Sub btnTriangle_Click(sender As Object, e As EventArgs) Handles btnTriangle.Click
+        'Declare User's nimber as an integer 
+        'Convert integer to have an InputBox
+        'Display the message "Type integer value
+        Dim UserNum As Integer = CInt(InputBox("Please type an integer value"))
+        'Declare "Triangle Holder" as a string
+        Dim TriangleHoldr As String
+        'Start a for or next loop w/nested variable
+        'Set I as an integer and count by 2
+        For I As Integer = 1 To UserNum Step +2
+            TriangleHoldr = ""
+            For J As Integer = 1 To I
+                TriangleHoldr += "*"
+            Next
+            lstQuestion4Output.Items.Add(TriangleHoldr)
+        Next
+    End Sub
+    Private Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
+        'Declare counter as integer and put it equal to zero
+        Dim Counter As Integer = 0
+        'Declare flag and set logic
+        Dim flag As Boolean = True
+        'Declare and set values for the integers
+        Dim totalnumofitems As Integer = lstPartNum.Items.Count
+        'Show an Input Box message for set integer
+        Dim userinput As Integer = CInt(InputBox("Enter an Integer"))
+        'Set Do While procedure
+        Do While flag = True
+            'Set logic and go through index of the numbers
+            If ((userinput = lstPartNum.Items.Count)) Then
+                flag = False
+                MessageBox.Show("Found your number at index " & CStr(Counter + 1))
+                'Set logic and create counter
+            ElseIf Counter = (totalnumofitems - 1) Then
+                flag = False
+                MessageBox.Show("Couldn't find your number")
+            End If
+            Counter += 1
+        Loop
+        'Out of the loop message
+        MessageBox.Show("You are out of the loop")
+    End Sub
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstPartNum.SelectedIndexChanged
+    End Sub
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    End Sub
+    'Start new procedure
+    Private Sub btnSum_Click(sender As Object, e As EventArgs) Handles btnSum.Click
+        'Declare the numbers counted
+        'Declare the sum
+        Dim NumOfCount As Integer
+        Dim sum As Integer
+        'Listout for numbers counted
+        NumOfCount = lstPartNum.Items.Count
+        'Count through numbers
+        For I As Integer = 0 To NumOfCount - 1
+            sum = sum + CInt(lstPartNum.Items(I))
+        Next
+        'Show end message
+        MessageBox.Show(CStr(sum))
+    End Sub
+End Class
