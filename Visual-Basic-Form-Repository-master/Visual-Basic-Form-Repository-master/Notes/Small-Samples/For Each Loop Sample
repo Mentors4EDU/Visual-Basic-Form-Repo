@@ -1,0 +1,7 @@
+ Private Sub btnForEach_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnForEach.Click
+        Dim MyIntArray() As Integer = {4, 5, 2, 6, 1, 4, 7, 1, 2, 5, 3, 9, 9, 5, 3, 4, 2, 7, 6, 1, 0, 8}
+        'use for each loop to print it out
+        For Each EachIndividualValue As Integer In MyIntArray
+            lstOut.Items.Add(EachIndividualValue)
+        Next
+    End Sub
