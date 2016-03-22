@@ -1,0 +1,18 @@
+  Private Sub btnArrayofGrades_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnArrayofGrades.Click
+        Dim grades() As Double
+        Dim subscript As Integer
+        Dim GradeIn As Double
+        GradeIn = CDbl(InputBox("Enter a grade, enter -1 to stop"))
+        Do While GradeIn <> -1
+            ReDim Preserve grades(subscript)
+            grades(subscript) = GradeIn
+            subscript += 1
+            GradeIn = CDbl(InputBox("Enter a grade, enter -1 to stop"))
+        Loop
+        For I As Integer = 0 To grades.Count - 1
+            lstOut.Items.Add(grades(1))
+        Next
+        '"have user enter in grades using an inputbox
+        'have them enter -1 to stop entering them
+
+    End Sub
