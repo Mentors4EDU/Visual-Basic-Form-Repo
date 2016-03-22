@@ -1,0 +1,31 @@
+    'Private Sub btnArrayMethods_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnArrayMethods.Click
+    '    'fill an array from mynumbers2.txt
+    '    'practice the methods
+    '    'x.Count, x.Max, x.Min, x.First, x.Last
+    '    'x.Average, x.Sum
+    '    Dim words() As String = IO.File.ReadAllLines("mynumbers2.txt")
+    '    Dim found As Boolean
+    '    lstOut.Items.Add(words.Count)
+    '    lstOut.Items.Add(words.Max)
+    '    lstOut.Items.Add(words.Min)
+    '    lstOut.Items.Add(words.First)
+    '    lstOut.Items.Add(words.Last)
+
+    '    Dim nums(words.Count - 1) As Double
+    '    For I As Integer = 0 To nums.Count
+    '        nums(1) = CDbl(words(1))
+    '        nameIn = InpuxBox("Enter Name").ToUpper
+    '        For I As Integer = 0 To words.Count - 1
+    '            If NameIn = words(1).ToUpper Then
+    '                found = True
+    '            End If
+    '            If found Then
+    '                MessageBox.Show(nameIN & " is found")
+    '            Else
+    '                MessageBox.Show(NameIN & " is not found")
+    '            End If
+    '            found = False
+    '            Do While subscript < words.Count And Not found
+    '            Loop
+    '        Next
+    '    Next
