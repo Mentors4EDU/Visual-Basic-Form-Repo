@@ -1,0 +1,24 @@
+    Private Sub btnPassArraytoProcedure_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPassArraytoProcedure.Click
+        Dim colors() As String = {"red", "white", "blue", "green", "purple", "orange", "pink", "black", "white"}
+        Dim found As Boolean
+        'pass array to a procedure and a function
+        Dim ColorIn As String
+        ColorIn = InputBox("Enter color name")
+        'Call a procedure to determine if a color is found
+    End Sub
+    Sub ColorAvailable(x() As String, tmpColor As String, ByRef isFound As Boolean)
+        For Each c As String In x
+            If c = tmpColor Then
+                isFound = True
+                'Else 'Do not set back to false, be careful when using flag
+                'IsFound = false
+            End If
+        Next
+    End Sub
+    Function FindAColor() As Boolean, tmpColor As String, ByRef isFound As Boolean)
+        For Each c As String In x
+        Next
+        If c = tmpColor Then
+        End If
+        Return True
+    End Function
