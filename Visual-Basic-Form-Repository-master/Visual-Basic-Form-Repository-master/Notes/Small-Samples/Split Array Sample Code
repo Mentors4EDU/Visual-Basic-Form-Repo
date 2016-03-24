@@ -1,0 +1,14 @@
+ Private Sub btnSplit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSplit.Click
+        'read from file Baseball.Txt into a string array
+        'each line contains the following
+        'name,team,atbat, hits
+        'as you read it in, print out this information wiht a hyphen between them
+        Dim teams() As String = IO.File.ReadAllLines("Baseball.txt")
+        Dim tempArray() As String
+        For i As Integer = 0 To teams.Count - 1
+            tempArray = teams(i).Split(","c)
+            ListBox1.Items.Add(tempArray(0))
+            ListBox2.Items.Add(tempArray(1))
+            ListBox3.Items.Add(tempArray(2))
+            ListBox4.Items.Add(tempArray(3))
+        Next
