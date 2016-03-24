@@ -1,0 +1,13 @@
+Private Sub btnSplitSimple_Click(sender As Object, e As EventArgs) Handles btnSplitSimple.Click
+        Dim asentence As String = "G123456578, Bob, Smith, 17, 3.3"
+        Dim info() As String
+        info = asentence.Split(","c)
+        For Each x In info
+            lstOut.Items.Add(x)
+        Next
+        lstOut.Items.Add("")
+        For 1 = 0 To info.Count - 1
+            lstOut.Items.Add(info(1))
+        Next
+    End Sub
+End Class
