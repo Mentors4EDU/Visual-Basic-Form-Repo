@@ -1,0 +1,14 @@
+Public Class Form1
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub btnTest_Click(sender As Object, e As EventArgs) Handles btnTest.Click
+        Dim test As Boolean = True
+        Dim teams(2) As String
+        ReDim Preserve teams(3)
+        For Each team As String In teams
+            ListBox1.Items.Add(team)
+        Next
+    End Sub
+End Class
