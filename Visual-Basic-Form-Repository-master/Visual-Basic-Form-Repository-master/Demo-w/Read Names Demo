@@ -1,0 +1,98 @@
+'LAB 8 
+'Winter 2016 
+'Andrew, Kamal
+'Following program is my own effort/work. 
+'I did not copy this program or program segment from  
+'anyone or any website site. If proven otherwise I will  
+'accept the consequences and the actions that will be  
+'taken for cheating in this class. 
+Public Class Form1
+    'Declare class level variables
+    'Set class level variables for problem 4
+    'Real all lines/ read the cities txt file using IO function
+    Dim cities() As String = IO.File.ReadAllLines("cities.txt")
+    Dim names(0) As String
+    Dim nameCounter(0) As String
+    'Declare Index as an integer
+    Dim index As Integer = 0
+    'Button 1 click handler
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnOne.Click
+        'Read the uumbers files and count them up
+        Dim nums() As String = IO.File.ReadAllLines("nums.txt")
+        'Declare strings and integers
+        Dim numint(nums.Count - 1) As Integer
+        'Let it read through the numbers and create a for next loop
+        For i As Integer = 0 To (nums.Count - 1)
+            lstOutPut.Items.Add(nums(i))
+            numint(i) = CInt(nums(i))
+        Next
+        'Find the minumum, maximum, and average
+        lblSmall.Text = CStr(numint.Min)
+        lblLarge.Text = CStr(numint.Max)
+        lblAverage.Text = CStr(numint.Average)
+    End Sub
+    'Listbox handler
+    Private Sub lstOutPut_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstOutPut.SelectedIndexChanged
+    End Sub
+    'Label handler
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles lblSmall.Click
+    End Sub
+    'Handler for average
+    Private Sub lblAverage_Click(sender As Object, e As EventArgs) Handles lblAverage.Click
+    End Sub
+    'Event handler
+    Private Sub lblLarge_Click(sender As Object, e As EventArgs) Handles lblLarge.Click
+    End Sub
+    'Form load handler
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Read cities from txt file, reference the class level variable
+        Dim cities() As String = IO.File.ReadAllLines("cities.txt")
+    End Sub
+    'Problem 2 button handler
+    Private Sub btnProb2_Click(sender As Object, e As EventArgs) Handles btnProb2.Click
+        'Set for each loops for list output
+        For Each city As String In cities
+            lstOutPut.Items.Add(city)
+        Next
+    End Sub
+    'Problem 3 button handler
+    Private Sub btnProb3_Click(sender As Object, e As EventArgs) Handles btnProb3.Click
+        'Declare strings
+        'Ask to enter a name
+        'Set values in bracket
+        'Read through values
+        Dim userInput As String = InputBox("Enter a letter")
+        Dim animals() As String = {"cats", "dogs", "turtles", "goldfish", "ferret", "parrots", "wonder woman", "flag", "snake", "bird", "lizard", "hamster", "lion", "cars", "wife", "girlfriend", "slavery", "random", "help", "why"}
+        Dim substring(animals.Count - 1) As String
+        'Read in the letters by setting up an integer and count action
+        For I As Integer = 0 To animals.Count - 1
+            'Create a substring
+            substring(I) = animals(I).Substring(0, 1)
+        Next
+        'Declare an integer and count
+        For I As Integer = 0 To substring.Count - 1
+            'If, End, If loop
+            If (substring(I) = userInput) Then
+                lstOutPut.Items.Add(animals(I))
+            End If
+        Next
+    End Sub
+    'Problem 4 event button handler
+    Private Sub btnProb4_Click(sender As Object, e As EventArgs) Handles btnProb4.Click
+        'Clear listbox when user clicks button
+        lstOutPut.Items.Clear()
+        'Declare the input and have the input box prompt user for a name
+        Dim UserInput As String = InputBox("Enter a name")
+        'Set an equal value for UserInput
+        names(index) = UserInput
+        'Create For Each Loop
+        'Use As String In
+        'Add Student names
+        For Each student As String In names
+            lstOutPut.Items.Add(student)
+        Next
+        'Use Redim Preserve and see the Index
+        ReDim Preserve names(names.Count)
+        index += 1
+    End Sub
+End Class
