@@ -1,0 +1,16 @@
+  Private Sub btnStudents_Click(sender As Object, e As EventArgs) Handles btnStudents.Click
+        Dim Students(,) As String = {{"Bob", "IT", "SA"},
+                                     {"Sue", "CS", "JR"},
+                                     {"Helen", "IT", "SO"},
+                                     {"Phil", "IT", "FR"},
+                                     {"Harry", "CS", "SR"}
+                                    }
+        Dim aLine As String = ""
+        For Row As Integer = 0 To 4
+            For Col As Integer = 0 To 2
+                aLine = aLine & "," & Students(Row, Col)
+            Next
+            lstOut.Items.Add(aLine)
+            aLine = ""
+        Next
+    End Sub
