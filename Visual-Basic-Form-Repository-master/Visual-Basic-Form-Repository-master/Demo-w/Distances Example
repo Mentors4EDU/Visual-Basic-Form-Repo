@@ -1,0 +1,65 @@
+Public Class Form1
+    Dim rm1(3, 3) As Double    'road mileage
+    Private Sub btnMileage_Click(sender As Object, e As EventArgs) Handles btnMileage.Click
+        Dim rm(,) As Double = {{0, 2054, 802, 738},
+                       {2054, 0, 2786, 2706},
+                       {802, 2786, 0, 100},
+                       {738, 2706, 100, 0}}
+        Dim rowNum, colNum As Integer
+        If radChiStart.Checked Then
+            rowNum = 0
+        ElseIf radLAStart.Checked Then
+            rowNum = 1
+        ElseIf radNYStart.Checked Then
+            rowNum = 2
+        ElseIf radPhilStart.Checked Then
+            rowNum = 3
+        End If
+        lblMileage.Text = CStr(rm(rowNum, colNum))
+
+    End Sub
+    Function getRow() As Integer
+        If radChiStart.Checked Then
+            Return 0
+        ElseIf radLAStart.Checked Then
+            Return 1
+        ElseIf radNYStart.Checked Then
+            Return 2
+        Else
+            Return 3
+        End If
+
+    End Function
+    Function getCol() As Integer
+
+        If radChiEnd.Checked Then
+            Return 0
+        ElseIf radLAEnd.Checked Then
+            Return 1
+        ElseIf radNYEnd.Checked Then
+            Return 2
+        Else
+            Return 3
+        End If
+
+    End Function
+
+    Private Sub btnDistances_Click(sender As Object, e As EventArgs) Handles btnDistances.Click
+
+        Dim rowOfNums() As String =
+                IO.File.ReadAllLines("Distances.txt")
+        Dim line, data() As String
+        For i As Integer = 0 To 3
+            line = rowOfNums(i)
+            data = line.Split(","c)
+            For j As Integer = 0 To 3
+                rm1(i, j) = CDbl(data(j))
+            Next
+        Next
+
+    End Sub
+
+    Private Sub btnPrintDistances_Click(sender As Object, e As EventArgs) Handles btnPrintDistances.Click
+        'print table
+
+    End Sub
