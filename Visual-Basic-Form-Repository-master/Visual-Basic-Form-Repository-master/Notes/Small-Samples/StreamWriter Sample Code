@@ -1,0 +1,16 @@
+   Private Sub btnWriteFile_Click(sender As Object, e As EventArgs) Handles btnWriteFile.Click
+        Dim ouutputFile As IO.StreamWriter = IO.File.CreateText("outputFile.txt")
+        Dim wordIN As String
+        wordIN = InputBox("Enter a word, type stop to end")
+        Do While wordIN <> "Stop"
+            Write.WriterLine(wordIN)]
+            wordIN = InputBox("Enter a word, type stop to end")
+        Loop
+    End Sub
+    
+      Private Sub btnRead_Click(sender As Object, e As EventArgs) Handles btnRead.Click
+        Dim bozo As IO.StreamReader = IO.File.OpenText("usstates.txt")
+        Dim templine As String
+        Do While bozo.EndOfStream <> True
+            templine = bozo.ReadLine
+        Loop
