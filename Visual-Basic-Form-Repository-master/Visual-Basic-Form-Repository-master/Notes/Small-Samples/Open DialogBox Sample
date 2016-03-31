@@ -1,0 +1,16 @@
+
+    Private Sub OpenFileDialog1_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles Ofd1.FileOk
+        Ofd1.Filter = "Text Files (*.txt)|*.txt"
+        Dim textFile As String
+        Ofd1.Filter = "text files|*.txt"
+        Ofd1.FileName = ""
+        Ofd1.ShowDialog()
+        If Ofd1.FileName <> "" Then
+            textFile = Ofd1.FileName
+            'open the file and fill an array
+            'fill the listbox
+        Else
+            MessageBox.Show("Pick a file")
+        End If
+
+    End Sub
