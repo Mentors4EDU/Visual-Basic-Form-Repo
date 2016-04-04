@@ -1,0 +1,54 @@
+Public Class Form1
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub btnNewName_Click(sender As Object, e As EventArgs) Handles btnNewName.Click
+        Dim textIn() As String = IO.File.ReadAllLines("words.txt")
+        Dim split(0) As String
+        Dim splitcounter As Integer = 0
+        Dim alphabet(25) As Integer
+        For i As Integer = 0 To textIn.Count - 1
+            For j As Integer = 0 To textIn(1).Length - 1
+                If ((textIn(i).Substring(j, 1)) <> (" ")) Then
+                    ReDim Preserve split(split.Count)
+                    split(splitcounter) = textIn(i).Substring(j, i).ToUpper()
+                    splitcounter += 1
+                End If
+            Next
+        Next
+        For i As Integer = 0 To split.Count - 2
+            alphabet(Asc(split(i)) - 65) += 1
+        Next
+        For i As Integer = 0 To 25
+            lstOutput.Items.Add(Chr(i + 65) & "i " & alphabet(i))
+        Next
+    End Sub
+    Private Sub lstOutput_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstOutput.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub btnFill_Click(sender As Object, e As EventArgs) Handles btnFill.Click
+        Dim rowOfNums() As String =
+            IO.File.ReadAllLines("studentinfo.txt")
+        Dim rm(rowOfNums.GetUpperBound(0), 150) As Double
+        Dim line, data() As String
+        For row As Integer = 0 To 150
+            line = rowOfNums(row)
+            data = line.Split(","c)
+            For col As Integer = 0 To 150
+                rm(row, col) = CDbl(data(col))
+                Dim Sum As Integer
+                Sum = line(row, col)
+            Next
+        Next
+    End Sub
+
+    Private Function line(row As Integer, col As Integer) As Integer
+        Throw New NotImplementedException()
+    End Function
+
+    Private Function col() As Object
+        Throw New NotImplementedException()
+    End Function
+End Class
