@@ -1,0 +1,7 @@
+ Private Sub btnDataS_Click(sender As Object, e As EventArgs) Handles btnDataS.Click
+        Dim IndexPos As Integer
+        IndexPos = CInt(txtNum.Text)
+        If IndexPos < lstOut.Items.Count Then
+            lstOut.Items.RemoveAt(IndexPos)
+        End If
+    End Sub
