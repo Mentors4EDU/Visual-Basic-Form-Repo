@@ -1,0 +1,6 @@
+ Private Sub btnRemove_Click(sender As Object, e As EventArgs) Handles btnRemove.Click
+        Dim stringIn As String
+        stringIn = txtString.Text
+        MessageBox.Show(CStr(lstOut.Items.IndexOf(stringIn)))
+        lstOut.Items.Remove(stringIn)
+    End Sub
