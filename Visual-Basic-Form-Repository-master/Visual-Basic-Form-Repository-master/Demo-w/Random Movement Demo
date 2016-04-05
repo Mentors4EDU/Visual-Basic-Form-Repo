@@ -1,0 +1,8 @@
+    Private Sub btnMove_Click(sender As Object, e As EventArgs) Handles btnMove.Click
+        Dim myrandom As New Random
+        Dim x, y As Integer
+        x = myrandom.Next(0, Me.Width - 50)
+        y = myrandom.Next(0, Me.Height - 50)
+        lblEx.Top = y
+        lblEx.Top = x
+    End Sub
