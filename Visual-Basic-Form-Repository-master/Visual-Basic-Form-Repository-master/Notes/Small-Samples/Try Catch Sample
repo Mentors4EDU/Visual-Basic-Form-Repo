@@ -1,0 +1,13 @@
+Public Class Form1
+
+    Private Sub btnTry_Click(sender As Object, e As EventArgs) Handles btnTry.Click
+        Dim numIn As Integer
+        Try
+            numIn = CInt(txtTry.Text)
+        Catch
+            MessageBox.Show("Enter a valid number in the textbox")
+            numIn = 0
+        End Try
+        lstout.items.add(numIn)
+    End Sub
+End Class
