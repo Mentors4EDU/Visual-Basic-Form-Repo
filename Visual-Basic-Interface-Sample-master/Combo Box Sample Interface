@@ -1,0 +1,219 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.btnTry = New System.Windows.Forms.Button()
+        Me.lstOut = New System.Windows.Forms.ListBox()
+        Me.txtTry = New System.Windows.Forms.TextBox()
+        Me.btnData = New System.Windows.Forms.Button()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.btnDataS = New System.Windows.Forms.Button()
+        Me.txtNum = New System.Windows.Forms.TextBox()
+        Me.txtString = New System.Windows.Forms.TextBox()
+        Me.btnRemove = New System.Windows.Forms.Button()
+        Me.cmbSample = New System.Windows.Forms.ComboBox()
+        Me.CmbStyle = New System.Windows.Forms.ComboBox()
+        Me.cmbList = New System.Windows.Forms.ComboBox()
+        Me.SuspendLayout
+        '
+        'btnTry
+        '
+        Me.btnTry.Location = New System.Drawing.Point(12, 7)
+        Me.btnTry.Name = "btnTry"
+        Me.btnTry.Size = New System.Drawing.Size(132, 34)
+        Me.btnTry.TabIndex = 0
+        Me.btnTry.Text = "Try Catch"
+        Me.btnTry.UseVisualStyleBackColor = true
+        '
+        'lstOut
+        '
+        Me.lstOut.FormattingEnabled = true
+        Me.lstOut.Location = New System.Drawing.Point(150, 7)
+        Me.lstOut.Name = "lstOut"
+        Me.lstOut.Size = New System.Drawing.Size(132, 82)
+        Me.lstOut.TabIndex = 2
+        '
+        'txtTry
+        '
+        Me.txtTry.Location = New System.Drawing.Point(12, 47)
+        Me.txtTry.Name = "txtTry"
+        Me.txtTry.Size = New System.Drawing.Size(132, 20)
+        Me.txtTry.TabIndex = 3
+        '
+        'btnData
+        '
+        Me.btnData.Location = New System.Drawing.Point(12, 73)
+        Me.btnData.Name = "btnData"
+        Me.btnData.Size = New System.Drawing.Size(132, 34)
+        Me.btnData.TabIndex = 4
+        Me.btnData.Text = "Data Source"
+        Me.btnData.UseVisualStyleBackColor = true
+        '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = true
+        Me.ListBox1.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "0"})
+        Me.ListBox1.Location = New System.Drawing.Point(165, 147)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(58, 121)
+        Me.ListBox1.TabIndex = 5
+        '
+        'btnDataS
+        '
+        Me.btnDataS.Location = New System.Drawing.Point(12, 113)
+        Me.btnDataS.Name = "btnDataS"
+        Me.btnDataS.Size = New System.Drawing.Size(132, 28)
+        Me.btnDataS.TabIndex = 6
+        Me.btnDataS.Text = "Data Source 2"
+        Me.btnDataS.UseVisualStyleBackColor = true
+        '
+        'txtNum
+        '
+        Me.txtNum.Location = New System.Drawing.Point(165, 95)
+        Me.txtNum.Name = "txtNum"
+        Me.txtNum.Size = New System.Drawing.Size(100, 20)
+        Me.txtNum.TabIndex = 7
+        Me.txtNum.Text = "# to remove"
+        '
+        'txtString
+        '
+        Me.txtString.Location = New System.Drawing.Point(165, 121)
+        Me.txtString.Name = "txtString"
+        Me.txtString.Size = New System.Drawing.Size(100, 20)
+        Me.txtString.TabIndex = 8
+        Me.txtString.Text = "String to Remove"
+        '
+        'btnRemove
+        '
+        Me.btnRemove.Location = New System.Drawing.Point(12, 147)
+        Me.btnRemove.Name = "btnRemove"
+        Me.btnRemove.Size = New System.Drawing.Size(132, 40)
+        Me.btnRemove.TabIndex = 9
+        Me.btnRemove.Text = "Remove"
+        Me.btnRemove.UseVisualStyleBackColor = true
+        '
+        'cmbSample
+        '
+        Me.cmbSample.FormattingEnabled = true
+        Me.cmbSample.Location = New System.Drawing.Point(23, 247)
+        Me.cmbSample.Name = "cmbSample"
+        Me.cmbSample.Size = New System.Drawing.Size(121, 21)
+        Me.cmbSample.TabIndex = 10
+        '
+        'CmbStyle
+        '
+        Me.CmbStyle.FormattingEnabled = true
+        Me.CmbStyle.Location = New System.Drawing.Point(23, 220)
+        Me.CmbStyle.Name = "CmbStyle"
+        Me.CmbStyle.Size = New System.Drawing.Size(121, 21)
+        Me.CmbStyle.TabIndex = 11
+        '
+        'cmbList
+        '
+        Me.cmbList.FormattingEnabled = true
+        Me.cmbList.Location = New System.Drawing.Point(23, 193)
+        Me.cmbList.Name = "cmbList"
+        Me.cmbList.Size = New System.Drawing.Size(121, 21)
+        Me.cmbList.TabIndex = 12
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(287, 276)
+        Me.Controls.Add(Me.cmbList)
+        Me.Controls.Add(Me.CmbStyle)
+        Me.Controls.Add(Me.cmbSample)
+        Me.Controls.Add(Me.btnRemove)
+        Me.Controls.Add(Me.txtString)
+        Me.Controls.Add(Me.txtNum)
+        Me.Controls.Add(Me.btnDataS)
+        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.btnData)
+        Me.Controls.Add(Me.txtTry)
+        Me.Controls.Add(Me.lstOut)
+        Me.Controls.Add(Me.btnTry)
+        Me.Name = "Form1"
+        Me.Text = "Form1"
+        Me.ResumeLayout(false)
+        Me.PerformLayout
+
+End Sub
+    Friend WithEvents btnTry As System.Windows.Forms.Button
+    Friend WithEvents lstOut As System.Windows.Forms.ListBox
+    Friend WithEvents txtTry As System.Windows.Forms.TextBox
+    Friend WithEvents btnData As System.Windows.Forms.Button
+    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
+    Friend WithEvents btnDataS As System.Windows.Forms.Button
+    Friend WithEvents txtNum As System.Windows.Forms.TextBox
+    Friend WithEvents txtString As System.Windows.Forms.TextBox
+    Friend WithEvents btnRemove As System.Windows.Forms.Button
+    Friend WithEvents cmbSample As System.Windows.Forms.ComboBox
+    Friend WithEvents CmbStyle As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbList As System.Windows.Forms.ComboBox
+
+End Class
+Public Class Form1
+
+    Private Sub btnTry_Click(sender As Object, e As EventArgs) Handles btnTry.Click
+        Dim numIn As Integer
+        Try
+            numIn = CInt(txtTry.Text)
+        Catch
+            MessageBox.Show("Enter a valid number in the textbox")
+            numIn = 0
+        End Try
+        lstout.items.add(numIn)
+    End Sub
+
+    Private Sub btnData_Click(sender As Object, e As EventArgs) Handles btnData.Click
+        Dim stuff() As String = {"a", "b", "c", "d"}
+        lstOut.DataSource = stuff
+        'The source of data to list out the listbox
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles txtNum.TextChanged
+
+    End Sub
+
+    Private Sub btnDataS_Click(sender As Object, e As EventArgs) Handles btnDataS.Click
+        Dim IndexPos As Integer
+        IndexPos = CInt(txtNum.Text)
+        If IndexPos < lstOut.Items.Count Then
+            lstOut.Items.RemoveAt(IndexPos)
+        End If
+    End Sub
+
+    Private Sub btnRemove_Click(sender As Object, e As EventArgs) Handles btnRemove.Click
+        Dim stringIn As String
+        stringIn = txtString.Text
+        MessageBox.Show(CStr(lstOut.Items.IndexOf(stringIn)))
+        Do While lstOut.Items.IndexOf(stringIn) <> -1
+            lstOut.Items.Remove(stringIn)
+        Loop
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class
