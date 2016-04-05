@@ -1,0 +1,5 @@
+Private Sub btnData_Click(sender As Object, e As EventArgs) Handles btnData.Click
+        Dim stuff() As String = {"a", "b", "c", "d"}
+        lstOut.DataSource = stuff
+        'The source of data to list out the listbox
+    End Sub
