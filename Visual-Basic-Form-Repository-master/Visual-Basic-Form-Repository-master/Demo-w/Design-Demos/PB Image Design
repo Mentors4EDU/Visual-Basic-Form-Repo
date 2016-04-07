@@ -1,0 +1,9 @@
+  '
+        Me.pbImage.Image = CType(resources.GetObject("pbImage.Image"), System.Drawing.Image)
+        Me.pbImage.Location = New System.Drawing.Point(317, 95)
+        Me.pbImage.Name = "pbImage"
+        Me.pbImage.Size = New System.Drawing.Size(100, 87)
+        Me.pbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbImage.TabIndex = 20
+        Me.pbImage.TabStop = False
+        '
