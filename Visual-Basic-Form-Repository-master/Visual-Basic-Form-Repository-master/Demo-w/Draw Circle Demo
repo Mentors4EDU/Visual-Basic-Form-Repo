@@ -1,0 +1,4 @@
+ Private Sub btnDraw_Click(sender As Object, e As EventArgs) Handles btnDraw.Click
+        pbQuickCircle.CreateGraphics.DrawEllipse(Pens.Black, 10, 10, 50, 50)
+        pbQuickCircle.CreateGraphics.FillEllipse(Brushes.White, 10, 10, 50, 50)
+    End Sub
