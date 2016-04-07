@@ -1,0 +1,3 @@
+Private Sub HScrollBar1_Scroll(sender As Object, e As ScrollEventArgs) Handles HScrollBar1.Scroll
+        lblValue.Text = CStr(HScrollBar1.Value)
+    End Sub
