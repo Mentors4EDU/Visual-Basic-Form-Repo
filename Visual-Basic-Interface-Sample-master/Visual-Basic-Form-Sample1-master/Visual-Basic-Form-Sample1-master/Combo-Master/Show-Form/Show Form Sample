@@ -1,0 +1,12 @@
+'Form 2
+'Public Class Form2
+    'Public Score As Integer
+    'Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'Score = CInt(InputBox("Enter your score"))
+        'Me.Close()
+    'End Sub
+'End Class
+
+'Form 1 ShortCode
+ 'Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'Form2.ShowDialog()
