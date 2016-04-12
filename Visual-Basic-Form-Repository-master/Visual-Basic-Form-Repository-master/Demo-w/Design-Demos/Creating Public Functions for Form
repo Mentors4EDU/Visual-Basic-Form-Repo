@@ -1,0 +1,22 @@
+'Declare function as string
+  Function CalcSemGrade() As String
+        'Declare grade as double
+        Dim grade As Double
+    grade = (m_midterm + m_final) / 2
+    grade = Math.Round(grade)  'Round the grade
+        'Create cases
+        Select Case grade
+            Case Is >= 90
+                Return "A"
+            Case Is >= 80
+                Return "B"
+            Case Is >= 70
+                Return "C"
+            Case Is >= 60
+                Return "D"
+            Case Else
+                Return "F"
+                'Do returns and end select cases
+        End Select
+        'End function
+  End Function
