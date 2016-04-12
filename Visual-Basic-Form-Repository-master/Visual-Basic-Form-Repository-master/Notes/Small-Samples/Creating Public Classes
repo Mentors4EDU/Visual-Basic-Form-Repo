@@ -1,0 +1,27 @@
+Class student
+        'These are member variables
+        Private m_name As String
+        Private m_ssn As String
+        Private m_midterm As Double
+        Private m_final As Double
+        Public Property Name() As String
+            Get
+                Return m_name
+            End Get
+            Set(value As String)
+                m_name = value
+            End Set
+        End Property
+        Public Property SSN As String
+            Get
+                Return m_ssn
+            End Get
+            Set(value As String)
+                m_ssn = value
+            End Set
+        End Property
+        Public WriteOnly Property midterm() As Double
+            Set(value As Double)
+                m_midterm = value
+            End Set
+        End Property
