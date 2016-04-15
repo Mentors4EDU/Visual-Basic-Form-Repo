@@ -9,3 +9,14 @@ Students(1) = "Samsung"
 And So On....
 
 You can use bracketts to initialize arrays
+
+Populate an array: IO.File.ReadAllLines("AgesAtInaugural.txt")
+*This populates an array using a text file
+
+Prof.Dinsmoor's Numeric Array Example: 
+Dim strAges() As String =
+    IO.File.ReadAllLines("AgesAtInaugural.txt")
+Dim ages(strAges.Count - 1) As Integer
+For i As Integer = 0 To strAges.Count - 1
+    ages(i) = CInt(strAges(i))
+Next
