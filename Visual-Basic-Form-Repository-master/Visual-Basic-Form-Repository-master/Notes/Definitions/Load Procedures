@@ -1,0 +1,14 @@
+.Click
+.Tick
+.Load
+.Close
+
+Handler procedure:
+
+.Load when the program loads
+
+.Close When you close it
+
+.Click for when a button is clicked
+
+.Tick for a timer started
