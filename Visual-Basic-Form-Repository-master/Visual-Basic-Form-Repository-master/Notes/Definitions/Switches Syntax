@@ -1,0 +1,6 @@
+Select case Selector
+  Case ValueList1
+    Action1
+  Case Valuelist2
+    Action2
+Case Else
