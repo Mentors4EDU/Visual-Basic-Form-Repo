@@ -1,0 +1,6 @@
+'You are creating/using a temporary variable
+For Each tmp As Integer In ages
+  If tmp > max Then
+    max = tmp
+  End If
+Next
