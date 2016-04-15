@@ -1,0 +1,13 @@
+Pre is before
+Post is after
+When doing a DoWhile loop
+
+Pre Example:
+Do While Condition
+  Statment()
+Loop
+
+The difference would have while at the bottom so
+Do 
+ Statement() 
+ While Condition Loop
