@@ -1,0 +1,4 @@
+• OpenText – open for input 
+• CreateText – open for output 
+• AppendText – open for append
+'Don't use more then one method at the same time or run two different methods at the same time
