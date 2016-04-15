@@ -1,0 +1,7 @@
+Dim Pass As String= ""
+Do While Pass <> Candy
+  Pass= InputBox("Message")
+  Pass= Pass.ToUpper
+Loop
+
+The loop control variable is pass since it is what is being tested in the loop
