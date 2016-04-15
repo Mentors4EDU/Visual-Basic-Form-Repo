@@ -1,0 +1,6 @@
+'This was Prof.Dinsmoor's Join Sample Code that was used in class:
+Dim greatLakes() As String = {"Huron",
+    "Ontario", "Michigan","Erie","Superior"}
+Dim lakes As String
+lakes = Join(greatLakes, ",")
+txtOutput.Text = lakes
