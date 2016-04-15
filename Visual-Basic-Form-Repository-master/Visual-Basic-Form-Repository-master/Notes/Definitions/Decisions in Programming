@@ -1,0 +1,7 @@
+The syntax for an if statement is:
+If
+  Then
+End If
+  
+You can also have an else if statement or if no then else using Boolean logic
+Also there is looping decisions for repetitions
