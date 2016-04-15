@@ -20,3 +20,10 @@ Dim ages(strAges.Count - 1) As Integer
 For i As Integer = 0 To strAges.Count - 1
     ages(i) = CInt(strAges(i))
 Next
+
+Array Methods list: 
+arrayName.Count number of elements
+arrayName.Max highest value
+arrayName.Min lowest value
+arrayName.First first element
+arrayName.Last last elemen
