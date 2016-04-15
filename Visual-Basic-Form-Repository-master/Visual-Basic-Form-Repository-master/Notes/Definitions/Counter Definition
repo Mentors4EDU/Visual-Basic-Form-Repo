@@ -1,0 +1,7 @@
+A counter is a numeric variable that will keep track of the number of times something is ran
+(Keeps track of how many times a code or loop runs)
+
+Dim I As Integer
+For J As Integer= 0 to 4
+  Counter += 1
+Next
