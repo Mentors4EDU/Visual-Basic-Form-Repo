@@ -1,0 +1,111 @@
+
+'Declare Form1 as public class
+Public Class Form1
+    'Form 1 Load handler
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    End Sub
+    'MenuStrip1 Handler
+    Private Sub MenuStrip1_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles MenuStrip1.ItemClicked
+    End Sub
+    'Picturebox click event and handler
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles picStart.Click
+    End Sub
+    'MenuStrip start menu item
+    Private Sub StartMenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StartMenuToolStripMenuItem.Click
+        'Enable Timer
+        tmr1.Enabled = True
+    End Sub
+    Private Sub ResetMenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ResetMenuToolStripMenuItem.Click
+        'Enable timer and set point
+        tmr1.Enabled = False
+        picStart.Location = New Point(0, 50)
+    End Sub
+    'Set tick event
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles tmr1.Tick
+        'Set location for first picture in the tick event
+        picStart.Location = New Point(picStart.Location.X + 5, picStart.Location.Y)
+    End Sub
+    Private Sub Problem2ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Problem2ToolStripMenuItem.Click
+        'Declare dialog as OpenFileDialog
+        Dim dialog As OpenFileDialog = New OpenFileDialog
+        'Show dialog and filter for txt
+        dialog.Filter = "Text Files(*.txt)|*.txt"
+        dialog.ShowDialog()
+        'Declare strvar
+        'Set it as reading an open text file
+        Dim strvar As IO.StreamReader = IO.File.OpenText(dialog.FileName)
+        'Decalre read as a string
+        Dim read As String
+        'Do while for end of stream reader as true
+        Do While strvar.EndOfStream <> True
+            'Read line
+            read = strvar.ReadLine
+            'Read from combo items
+            cmbBox.Items.Add(read)
+        Loop
+    End Sub
+    'Problem 3 menu item handler
+    Private Sub Problem3ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Problem3ToolStripMenuItem.Click
+        'Draw the graphics
+        'Fill the graphics
+        'Youb are setting its colors and coordinates
+        pic2.CreateGraphics.DrawEllipse(Pens.Yellow, 20, 60, 40, 40)
+        pic2.CreateGraphics.FillEllipse(Brushes.Yellow, 20, 60, 40, 40)
+        pic2.CreateGraphics.DrawEllipse(Pens.White, 10, 100, 60, 60)
+        pic2.CreateGraphics.FillEllipse(Brushes.Black, 10, 100, 60, 60)
+    End Sub
+    'Problem 4 Menustrip handler
+    Private Sub Problem4ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Problem4ToolStripMenuItem.Click
+        Try
+            'Start a try catch block for exemption
+            'Declare index as integer and use selectedindex event
+            'Use RemoveAt event
+            Dim Index As Integer = lstWords.SelectedIndex
+            lstWords.Items.RemoveAt(Index)
+        Catch ex As Exception
+            'Show message to tell user to select something
+            MessageBox.Show("Please select something from the listbox")
+        End Try
+    End Sub
+    'Listbox handler
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstWords.SelectedIndexChanged
+    End Sub
+    'Picture click handler
+    Private Sub pic2_Click(sender As Object, e As EventArgs) Handles pic2.Click
+    End Sub
+    'Problem 5 handler, show form 2
+    Private Sub Problem5ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Problem5ToolStripMenuItem.Click
+        Form2.Show()
+    End Sub
+    'Create handler for problem 6 of the menuscript
+    Private Sub Problem6ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Problem6ToolStripMenuItem.Click
+        'Create a text file in your current directory
+        Dim writeFile As IO.StreamWriter = IO.File.CreateText("C:\Users\kamal_000\Desktop\1to1000.txt")
+        'Declare count as integer and set equal to 1
+        Dim count As Integer = 1
+        'Declare I as integer
+        For I As Integer = 0 To 999
+            'Add 1 for count to go up to 1000
+            'Convert to string
+            writeFile.WriteLine(CStr(count))
+            count += 1
+        Next
+        'Use the close property
+        writeFile.Close()
+        'Show the message done after the file close
+        MessageBox.Show("done")
+    End Sub
+    'Have a scrollbar handler
+    Private Sub HScrollBar1_Scroll(sender As Object, e As ScrollEventArgs) Handles hsbTest.Scroll
+        'Set the minumum for the scrollbar at 0
+        'and at 1009 to display 0 to 1000
+        'Do this because scroller is 9 units
+        hsbTest.Minimum = 0
+        hsbTest.Maximum = 1009
+        'Set the label equal to a value
+        lblValue.Text = CType(hsbTest.Value, String)
+    End Sub
+    'This is the label handler
+    Private Sub lblValue_Click(sender As Object, e As EventArgs) Handles lblValue.Click
+    End Sub
+End Class
