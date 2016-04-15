@@ -1,2 +1,8 @@
 listbox.Items.Add()
   *Adds a value to a listbox
+________________________
+You can also use items collection or .count to loop through a Listbox
+ListBox.Items.Count - 1
+
+For I As Integer = 0 to ListBox.Items.Count - 1
+Returns a value of how many numbers are in the list since we start counting as zero
