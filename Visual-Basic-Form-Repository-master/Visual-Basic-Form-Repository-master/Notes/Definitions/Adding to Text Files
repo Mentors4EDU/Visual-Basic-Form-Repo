@@ -1,0 +1,4 @@
+Dim swVar As IO.StreamWriter = _
+            IO.File.AppendText(filespec)
+
+'You use the action of Appending text
