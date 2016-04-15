@@ -1,0 +1,18 @@
+Public Class Form2
+    Public form2Text As String
+    Private Sub btnTest_Click(sender As Object, e As EventArgs) Handles btnTest.Click
+        If (txtTest.Text = "") Then
+            Dim Input As String = InputBox("Please enter something")
+            txtTest.Text = Input
+            form2Text = txtTest.Text
+        Else Me.Close()
+        End If
+    End Sub
+
+    Private Sub Form2_Leave(sender As Object, e As EventArgs) Handles Me.FormClosing
+        MessageBox.Show("Thank You for your time")
+    End Sub
+
+    Private Sub txtTest_TextChanged(sender As Object, e As EventArgs) Handles txtTest.TextChanged
+    End Sub
+End Class
