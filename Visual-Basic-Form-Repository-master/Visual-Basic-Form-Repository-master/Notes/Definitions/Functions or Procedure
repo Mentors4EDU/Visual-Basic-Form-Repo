@@ -1,3 +1,13 @@
 Functions return a value while a procedure does just all the code
 A function you can give it some value as well as procedure
 Function just returns something
+'You don't need to say Dim in a function
+'You need to say what it returns
+'Procedures are given usually two values
+'You would use sub and end sub for a procedure
+'You can pass procedure values but you can't return anything
+'Pass Value or Pass Reference
+ByVal or ByRef
+You can pass a function by a value
+or you can pass the reference to that variable
+(Reference can be a change)
