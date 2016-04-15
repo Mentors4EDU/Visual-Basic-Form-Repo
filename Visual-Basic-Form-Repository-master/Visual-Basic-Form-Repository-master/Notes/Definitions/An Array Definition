@@ -1,0 +1,5 @@
+Container object that stores a fixed number of value; A collection that VB can assign a list to
+Dim arrayname(NumberofElements) As String
+
+Sample: Dim Students(29) As String
+This array is sized 30
