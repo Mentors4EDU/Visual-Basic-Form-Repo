@@ -1,0 +1,5 @@
+ReDim Preserve lets you keep the current values in an array and resize it to be larger and add more to the array or smaller to remove
+some values in the array starting from the end values
+
+ReDim Preserve arrayName(m)
+*Refer to IndexOf examples for another example of creating an array without using a database
