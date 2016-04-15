@@ -1,0 +1,207 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.tmr1 = New System.Windows.Forms.Timer(Me.components)
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.Problem1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StartMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ResetMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Problem2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Problem3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Problem4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Problem5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Problem6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.picStart = New System.Windows.Forms.PictureBox()
+        Me.ofdDialog = New System.Windows.Forms.OpenFileDialog()
+        Me.cmbBox = New System.Windows.Forms.ComboBox()
+        Me.pic2 = New System.Windows.Forms.PictureBox()
+        Me.lstWords = New System.Windows.Forms.ListBox()
+        Me.hsbTest = New System.Windows.Forms.HScrollBar()
+        Me.lblValue = New System.Windows.Forms.Label()
+        Me.MenuStrip1.SuspendLayout()
+        CType(Me.picStart, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pic2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'tmr1
+        '
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Problem1ToolStripMenuItem, Me.Problem2ToolStripMenuItem, Me.Problem3ToolStripMenuItem, Me.Problem4ToolStripMenuItem, Me.Problem5ToolStripMenuItem, Me.Problem6ToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(451, 24)
+        Me.MenuStrip1.TabIndex = 1
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'Problem1ToolStripMenuItem
+        '
+        Me.Problem1ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.StartMenuToolStripMenuItem, Me.ResetMenuToolStripMenuItem})
+        Me.Problem1ToolStripMenuItem.Name = "Problem1ToolStripMenuItem"
+        Me.Problem1ToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
+        Me.Problem1ToolStripMenuItem.Text = "Problem 1"
+        '
+        'StartMenuToolStripMenuItem
+        '
+        Me.StartMenuToolStripMenuItem.Name = "StartMenuToolStripMenuItem"
+        Me.StartMenuToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.StartMenuToolStripMenuItem.Text = "Start Menu"
+        '
+        'ResetMenuToolStripMenuItem
+        '
+        Me.ResetMenuToolStripMenuItem.Name = "ResetMenuToolStripMenuItem"
+        Me.ResetMenuToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ResetMenuToolStripMenuItem.Text = "Reset Menu"
+        '
+        'Problem2ToolStripMenuItem
+        '
+        Me.Problem2ToolStripMenuItem.Name = "Problem2ToolStripMenuItem"
+        Me.Problem2ToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
+        Me.Problem2ToolStripMenuItem.Text = "Problem 2"
+        '
+        'Problem3ToolStripMenuItem
+        '
+        Me.Problem3ToolStripMenuItem.Name = "Problem3ToolStripMenuItem"
+        Me.Problem3ToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
+        Me.Problem3ToolStripMenuItem.Text = "Problem 3"
+        '
+        'Problem4ToolStripMenuItem
+        '
+        Me.Problem4ToolStripMenuItem.Name = "Problem4ToolStripMenuItem"
+        Me.Problem4ToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
+        Me.Problem4ToolStripMenuItem.Text = "Problem 4"
+        '
+        'Problem5ToolStripMenuItem
+        '
+        Me.Problem5ToolStripMenuItem.Name = "Problem5ToolStripMenuItem"
+        Me.Problem5ToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
+        Me.Problem5ToolStripMenuItem.Text = "Problem 5"
+        '
+        'Problem6ToolStripMenuItem
+        '
+        Me.Problem6ToolStripMenuItem.Name = "Problem6ToolStripMenuItem"
+        Me.Problem6ToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
+        Me.Problem6ToolStripMenuItem.Text = "Problem 6"
+        '
+        'picStart
+        '
+        Me.picStart.ErrorImage = CType(resources.GetObject("picStart.ErrorImage"), System.Drawing.Image)
+        Me.picStart.Image = CType(resources.GetObject("picStart.Image"), System.Drawing.Image)
+        Me.picStart.InitialImage = CType(resources.GetObject("picStart.InitialImage"), System.Drawing.Image)
+        Me.picStart.Location = New System.Drawing.Point(12, 27)
+        Me.picStart.Name = "picStart"
+        Me.picStart.Size = New System.Drawing.Size(125, 55)
+        Me.picStart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picStart.TabIndex = 2
+        Me.picStart.TabStop = False
+        '
+        'ofdDialog
+        '
+        Me.ofdDialog.FileName = "OpenFileDialog1"
+        '
+        'cmbBox
+        '
+        Me.cmbBox.FormattingEnabled = True
+        Me.cmbBox.Location = New System.Drawing.Point(12, 97)
+        Me.cmbBox.Name = "cmbBox"
+        Me.cmbBox.Size = New System.Drawing.Size(125, 21)
+        Me.cmbBox.TabIndex = 3
+        '
+        'pic2
+        '
+        Me.pic2.Location = New System.Drawing.Point(155, 27)
+        Me.pic2.Name = "pic2"
+        Me.pic2.Size = New System.Drawing.Size(100, 199)
+        Me.pic2.TabIndex = 4
+        Me.pic2.TabStop = False
+        '
+        'lstWords
+        '
+        Me.lstWords.FormattingEnabled = True
+        Me.lstWords.Items.AddRange(New Object() {"Hello", "World", "How ", "Are ", "You", "World"})
+        Me.lstWords.Location = New System.Drawing.Point(12, 131)
+        Me.lstWords.Name = "lstWords"
+        Me.lstWords.Size = New System.Drawing.Size(120, 95)
+        Me.lstWords.TabIndex = 5
+        '
+        'hsbTest
+        '
+        Me.hsbTest.Location = New System.Drawing.Point(289, 42)
+        Me.hsbTest.Name = "hsbTest"
+        Me.hsbTest.Size = New System.Drawing.Size(125, 17)
+        Me.hsbTest.TabIndex = 6
+        '
+        'lblValue
+        '
+        Me.lblValue.AutoSize = True
+        Me.lblValue.Location = New System.Drawing.Point(337, 69)
+        Me.lblValue.Name = "lblValue"
+        Me.lblValue.Size = New System.Drawing.Size(34, 13)
+        Me.lblValue.TabIndex = 7
+        Me.lblValue.Text = "Value"
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(451, 243)
+        Me.Controls.Add(Me.lblValue)
+        Me.Controls.Add(Me.hsbTest)
+        Me.Controls.Add(Me.lstWords)
+        Me.Controls.Add(Me.pic2)
+        Me.Controls.Add(Me.cmbBox)
+        Me.Controls.Add(Me.picStart)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.MainMenuStrip = Me.MenuStrip1
+        Me.Name = "Form1"
+        Me.Text = "Form1"
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
+        CType(Me.picStart, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pic2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents tmr1 As Timer
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents Problem1ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Problem2ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Problem3ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Problem4ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Problem5ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Problem6ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents picStart As PictureBox
+    Friend WithEvents StartMenuToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ResetMenuToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ofdDialog As OpenFileDialog
+    Friend WithEvents cmbBox As ComboBox
+    Friend WithEvents pic2 As PictureBox
+    Friend WithEvents lstWords As ListBox
+    Friend WithEvents hsbTest As HScrollBar
+    Friend WithEvents lblValue As Label
+End Class
