@@ -1,0 +1,5 @@
+For a For Next Loop it will increment 1 by default but if you wanna do higher then 1, you must use the keyword step
+It can also go if done negative like
+Step - 1
+or
+Step + 2
