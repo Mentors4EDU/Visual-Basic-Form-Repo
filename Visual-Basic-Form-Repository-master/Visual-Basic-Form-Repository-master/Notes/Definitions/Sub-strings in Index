@@ -1,0 +1,8 @@
+Substring
+(starting character)
+
+x.substring(0, 1)
+Turns back the first letter consisting of 1 character
+
+x.substring(1,1)
+Turns back the second character
