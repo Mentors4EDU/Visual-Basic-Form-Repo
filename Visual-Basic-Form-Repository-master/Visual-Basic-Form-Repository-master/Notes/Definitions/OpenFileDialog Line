@@ -17,3 +17,9 @@ OpenFileDialog1.ShowDialog()
         MessageBox.Show(“Pick a file”)
 End If
 End Sub
+
+'Side note, this is a sample for reading a file: 
+'Dim srVar As IO.StreamReader =
+'IO.File.OpenText(filespec)
+
+'Write data uses the extension .CreateText instead of Open
