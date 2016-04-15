@@ -3,3 +3,9 @@ Dim arrayname(NumberofElements) As String
 
 Sample: Dim Students(29) As String
 This array is sized 30
+
+Students(0) = "Tom"
+Students(1) = "Samsung"
+And So On....
+
+You can use bracketts to initialize arrays
