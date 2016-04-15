@@ -4,3 +4,4 @@ For Each tmp As Integer In ages
     max = tmp
   End If
 Next
+'Only works or used for in looping through arrays
