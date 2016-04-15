@@ -1,0 +1,2 @@
+'Use this line of code to determine if a file exists before opening it to avoid an error
+IO.File.Exists(filespec)
