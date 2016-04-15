@@ -1,0 +1,19 @@
+OpenFileDialog1.FileName
+
+____________________
+'If you are in Prof.Dinsmoor's class refer to Example 9 of Chapter 7 in Slide 7:
+
+Private Sub btnSelect_Click(...) Handles _
+btnSelect.Click
+Dim textFile As String
+OpenFileDialog1.Filter = “text files|*.txt”
+OpenFileDialog1.Filename = “”
+OpenFileDialog1.ShowDialog()
+    If openFileDialog1.Filename <> “” then
+      textFile = OpenFileDialog1.FileName
+      ‘open the file and fill an array
+  ‘fill the listbox
+      Else
+        MessageBox.Show(“Pick a file”)
+End If
+End Sub
