@@ -1,0 +1,12 @@
+Can use console control 
+  Dim num As Double = 0
+  Dim prompt As String = "Enter a nonnegative number. Enter -1 " & "to terminate entering numbers."
+    num = CDbl(InputBox(prompt))
+    Do While num <> -1 '-1 is sentinel value
+      .
+      .
+      num = CDbl(InputBox(prompt))
+      Loop
+
+See sample: From Chapter 6
+VB.net Sample: http://bit.ly/1SkhG7l
