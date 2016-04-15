@@ -27,3 +27,9 @@ arrayName.Max highest value
 arrayName.Min lowest value
 arrayName.First first element
 arrayName.Last last elemen
+
+Two dimenional arrays sample: Dim arrayName(rows, cols) As DataType
+Initialized with:
+Dim arrayName(,) As DataType =
+{{ROW0}, {ROW1}, {ROW2}, ..., {ROWN}}
+'This was the sample that has been shown in class
