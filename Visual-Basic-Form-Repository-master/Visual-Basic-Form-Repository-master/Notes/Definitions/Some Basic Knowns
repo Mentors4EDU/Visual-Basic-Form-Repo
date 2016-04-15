@@ -1,0 +1,10 @@
+Flag: A variable that is changed or raised when a condition is met to tell a loop to stop
+Loop Until Flag = True
+
+Accumulator: Used to contain the results of a logical operation
+Accumulator sums in the loop
+Can be Sum
+Sum =+ 1
+'That sum variable is an accumulator
+
+Counter: A set count for the times the code will run through lines
