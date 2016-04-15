@@ -1,0 +1,3 @@
+Dim gr As Graphics = picBox.CreateGraphics
+gr.FillRectangle(Brushes.Color, x, y, w, h)
+'This is when you wanna draw and fill graphics
