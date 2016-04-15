@@ -1,0 +1,5 @@
+'The scope of a variable is who can use that variable
+'If you can make a variable inside a function, you can only use that variable inside that function
+(Local Variable Scope)
+
+'Then you can create a public scope to use in more then one function
