@@ -1,0 +1,5 @@
+For I as DataType = m To n
+  Statement(s)
+Next
+
+A while will loop until a condition is met while For Next will loop a specific number of times
